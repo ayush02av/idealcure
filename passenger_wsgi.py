@@ -1,0 +1,1 @@
+from idealcure.wsgi import application

@@ -1,0 +1,227 @@
+App 287553 output: Not Found: /static/main/doctorimage.jpg
+App 287553 output: [ pid=287553, time=2021-06-27 11:19:54,283 ]: Not Found: /static/main/doctorimage.jpg
+App 287553 output: Not Found: /static/main/logo.jpeg
+App 287553 output: [ pid=287553, time=2021-06-27 11:19:54,289 ]: Not Found: /static/main/logo.jpeg
+App 287553 output: Not Found: /static/main/logo.jpeg
+App 287553 output: [ pid=287553, time=2021-06-27 11:19:54,563 ]: Not Found: /static/main/logo.jpeg
+App 757904 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 757904 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 757904 output: Traceback (most recent call last):
+App 757904 output:   File "/opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py", line 381, in <module>
+App 757904 output:     
+App 757904 output: handler = RequestHandler(server_socket, sys.stdin, app_module.application)
+App 757904 output: 
+App 757904 output: AttributeError: module 'passenger_wsgi' has no attribute 'application'
+App 287553 output: Not Found: /static/main/base.css
+App 287553 output: [ pid=287553, time=2021-06-27 11:20:50,716 ]: Not Found: /static/main/base.css
+App 287553 output: Not Found: /static/main/HomePage.css
+App 287553 output: [ pid=287553, time=2021-06-27 11:20:56,593 ]: Not Found: /static/main/HomePage.css
+App 287553 output: Not Found: /static/main/logo.jpeg
+App 287553 output: [ pid=287553, time=2021-06-27 11:20:56,902 ]: Not Found: /static/main/logo.jpeg
+App 287553 output: Not Found: /static/main/faqtoggle.js
+App 287553 output: [ pid=287553, time=2021-06-27 11:20:57,043 ]: Not Found: /static/main/faqtoggle.js
+App 287553 output: Not Found: /static/main/doctorimage.jpg
+App 287553 output: [ pid=287553, time=2021-06-27 11:20:57,515 ]: Not Found: /static/main/doctorimage.jpg
+App 287553 output: Not Found: /static/main/logo.jpeg
+App 287553 output: [ pid=287553, time=2021-06-27 11:20:57,806 ]: Not Found: /static/main/logo.jpeg
+App 287553 output: Not Found: /static/main/base.css
+App 287553 output: [ pid=287553, time=2021-06-27 11:23:38,095 ]: Not Found: /static/main/base.css
+App 287553 output: Not Found: /static/main/HomePage.css
+App 287553 output: [ pid=287553, time=2021-06-27 11:23:38,730 ]: Not Found: /static/main/HomePage.css
+App 287553 output: Not Found: /static/main/faqtoggle.js
+App 287553 output: [ pid=287553, time=2021-06-27 11:23:38,952 ]: Not Found: /static/main/faqtoggle.js
+App 287553 output: Not Found: /static/main/logo.jpeg
+App 287553 output: [ pid=287553, time=2021-06-27 11:23:39,390 ]: Not Found: /static/main/logo.jpeg
+App 287553 output: Not Found: /static/main/doctorimage.jpg
+App 287553 output: [ pid=287553, time=2021-06-27 11:23:39,486 ]: Not Found: /static/main/doctorimage.jpg
+App 287553 output: Not Found: /static/main/base.css
+App 287553 output: [ pid=287553, time=2021-06-27 11:23:41,628 ]: Not Found: /static/main/base.css
+App 287553 output: Not Found: /static/main/HomePage.css
+App 287553 output: [ pid=287553, time=2021-06-27 11:23:41,674 ]: Not Found: /static/main/HomePage.css
+App 287553 output: Not Found: /static/main/faqtoggle.js
+App 287553 output: [ pid=287553, time=2021-06-27 11:23:41,736 ]: Not Found: /static/main/faqtoggle.js
+App 287553 output: Not Found: /static/main/logo.jpeg
+App 287553 output: [ pid=287553, time=2021-06-27 11:23:43,322 ]: Not Found: /static/main/logo.jpeg
+App 287553 output: Not Found: /static/main/doctorimage.jpg
+App 287553 output: [ pid=287553, time=2021-06-27 11:23:43,432 ]: Not Found: /static/main/doctorimage.jpg
+App 287553 output: Not Found: /ayush
+App 287553 output: [ pid=287553, time=2021-06-27 11:24:54,243 ]: Not Found: /ayush
+App 287553 output: Not Found: /favicon.ico
+App 287553 output: [ pid=287553, time=2021-06-27 11:24:54,810 ]: Not Found: /favicon.ico
+App 287553 output: Not Found: /ayush
+App 287553 output: [ pid=287553, time=2021-06-27 11:24:56,263 ]: Not Found: /ayush
+App 287553 output: Not Found: /favicon.ico
+App 287553 output: [ pid=287553, time=2021-06-27 11:24:56,937 ]: Not Found: /favicon.ico
+App 764455 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 764455 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 764455 output: Traceback (most recent call last):
+App 764455 output:   File "/opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py", line 381, in <module>
+App 764455 output:     
+App 764455 output: handler = RequestHandler(server_socket, sys.stdin, app_module.application)
+App 764455 output: 
+App 764455 output: AttributeError
+App 764455 output: : 
+App 764455 output: module 'passenger_wsgi' has no attribute 'application'
+App 764455 output: 
+App 764532 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 764532 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 764532 output: Traceback (most recent call last):
+App 764532 output:   File "/opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py", line 381, in <module>
+App 764532 output:     
+App 764532 output: handler = RequestHandler(server_socket, sys.stdin, app_module.application)
+App 764532 output: 
+App 764532 output: AttributeError
+App 764532 output: : 
+App 764532 output: module 'passenger_wsgi' has no attribute 'application'
+App 764532 output: 
+App 764840 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 764840 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 764840 output: Traceback (most recent call last):
+App 764840 output:   File "/opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py", line 381, in <module>
+App 764840 output:     
+App 764840 output: handler = RequestHandler(server_socket, sys.stdin, app_module.application)
+App 764840 output: 
+App 764840 output: AttributeError
+App 764840 output: : 
+App 764840 output: module 'passenger_wsgi' has no attribute 'application'
+App 764840 output: 
+App 764970 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 764970 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 764970 output: Traceback (most recent call last):
+App 764970 output:   File "/opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py", line 381, in <module>
+App 764970 output:     
+App 764970 output: handler = RequestHandler(server_socket, sys.stdin, app_module.application)
+App 764970 output: 
+App 764970 output: AttributeError
+App 764970 output: : 
+App 764970 output: module 'passenger_wsgi' has no attribute 'application'
+App 764970 output: 
+App 766139 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 766139 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 766139 output: [ pid=766139, time=2021-06-27 11:26:57,336 ]: Not Found: /ayush
+App 766139 output: [ pid=766139, time=2021-06-27 11:26:57,710 ]: Not Found: /favicon.ico
+App 766139 output: [ pid=766139, time=2021-06-27 11:30:25,478 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:30:46,026 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:30:49,050 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:31:05,804 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:32:11,664 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:32:16,706 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:32:36,080 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:37:32,023 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:38:05,866 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:44:27,989 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:48:53,752 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:52:32,665 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 11:53:25,147 ]: Internal Server Error: /backend/consultation/day/
+App 766139 output: Traceback (most recent call last):
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+App 766139 output:     response = get_response(request)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+App 766139 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+App 766139 output:     return self.admin_site.admin_view(view)(*args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+App 766139 output:     response = view_func(request, *args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+App 766139 output:     response = view_func(request, *args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+App 766139 output:     return view(request, *args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+App 766139 output:     return bound_method(*args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+App 766139 output:     response = view_func(request, *args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1739, in changelist_view
+App 766139 output:     response = self.response_action(request, queryset=cl.get_queryset(request))
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1406, in response_action
+App 766139 output:     queryset = queryset.filter(pk__in=selected)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+App 766139 output:     return self._filter_or_exclude(False, args, kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+App 766139 output:     clone._filter_or_exclude_inplace(negate, args, kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+App 766139 output:     self._query.add_q(Q(*args, **kwargs))
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1391, in add_q
+App 766139 output:     clause, _ = self._add_q(q_object, self.used_aliases)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1410, in _add_q
+App 766139 output:     child_clause, needed_inner = self.build_filter(
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1345, in build_filter
+App 766139 output:     condition = self.build_lookup(lookups, col, value)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1191, in build_lookup
+App 766139 output:     lookup = lookup_class(lhs, rhs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+App 766139 output:     self.rhs = self.get_prep_lookup()
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/lookups.py", line 240, in get_prep_lookup
+App 766139 output:     rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1266, in get_prep_value
+App 766139 output:     return self.to_python(value)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1238, in to_python
+App 766139 output:     raise exceptions.ValidationError(
+App 766139 output: django.core.exceptions.ValidationError: ['“July 3, 2021” value has an invalid date format. It must be in YYYY-MM-DD format.']
+App 766139 output: [ pid=766139, time=2021-06-27 11:53:26,039 ]: Not Found: /favicon.ico
+App 766139 output: [ pid=766139, time=2021-06-27 11:54:16,883 ]: Internal Server Error: /backend/consultation/day/
+App 766139 output: Traceback (most recent call last):
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+App 766139 output:     response = get_response(request)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+App 766139 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+App 766139 output:     return self.admin_site.admin_view(view)(*args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+App 766139 output:     response = view_func(request, *args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+App 766139 output:     response = view_func(request, *args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+App 766139 output:     return view(request, *args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+App 766139 output:     return bound_method(*args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+App 766139 output:     response = view_func(request, *args, **kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1739, in changelist_view
+App 766139 output:     response = self.response_action(request, queryset=cl.get_queryset(request))
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1406, in response_action
+App 766139 output:     queryset = queryset.filter(pk__in=selected)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+App 766139 output:     return self._filter_or_exclude(False, args, kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+App 766139 output:     clone._filter_or_exclude_inplace(negate, args, kwargs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+App 766139 output:     self._query.add_q(Q(*args, **kwargs))
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1391, in add_q
+App 766139 output:     clause, _ = self._add_q(q_object, self.used_aliases)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1410, in _add_q
+App 766139 output:     child_clause, needed_inner = self.build_filter(
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1345, in build_filter
+App 766139 output:     condition = self.build_lookup(lookups, col, value)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1191, in build_lookup
+App 766139 output:     lookup = lookup_class(lhs, rhs)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+App 766139 output:     self.rhs = self.get_prep_lookup()
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/lookups.py", line 240, in get_prep_lookup
+App 766139 output:     rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1266, in get_prep_value
+App 766139 output:     return self.to_python(value)
+App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1238, in to_python
+App 766139 output:     raise exceptions.ValidationError(
+App 766139 output: django.core.exceptions.ValidationError: ['“July 3, 2021” value has an invalid date format. It must be in YYYY-MM-DD format.']
+App 766139 output: [ pid=766139, time=2021-06-27 12:02:51,447 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:05:04,943 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:05:25,110 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:05:42,361 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:05:57,242 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:06:11,835 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:07:59,165 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:28:38,095 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:28:44,745 ]: Not Found: /favicon.ico
+App 766139 output: [ pid=766139, time=2021-06-27 12:29:06,503 ]: Not Found: /favicon.ico
+App 766139 output: [ pid=766139, time=2021-06-27 12:43:06,202 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:43:12,490 ]: Not Found: /favicon.ico
+App 766139 output: [ pid=766139, time=2021-06-27 12:45:54,140 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:57:32,631 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 12:57:49,172 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 13:19:46,276 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 13:26:53,259 ]: Not Found: /static/main/doctorimage.jpg
+App 766139 output: [ pid=766139, time=2021-06-27 13:26:55,659 ]: Not Found: /favicon.ico
+App 766139 output: [ pid=766139, time=2021-06-27 13:43:26,280 ]: Not Found: /static/main/doctorimage.jpg
+App 1377702 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 1377702 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 1377702 output: [ pid=1377702, time=2021-06-27 13:49:07,985 ]: Not Found: /static/main/doctorimage.jpg
