@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block HeadBlock %}
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{% endblock %}
+
+{% block BodyBlock %}
+	{% if request.user.is_superuser %}
+		<br><br>
+		<center><h4>Pending Slots</h4></center>
+		<table>
+			<tr>
+				<th>Patient</th>
+				<th>Slot Details</th>
+				<th>Description</th>
+			</tr>
+		{% for pendingSlot in PendingSlots %}
+			<tr>
+				<td>
+					{{ pendingSlot.Patient.User.get_full_name }}
+					:
+					{{ pendingSlot.Patient.User.username }}
+					<a href="tel:{{ pendingSlot.Patient.User.username }}" target="blank"><span class="fa fa-phone" style="color: blue; font-size: 25px;"></span></a>
+					<a href="https://api.whatsapp.com/send?phone=+91{{ pendingSlot.Patient.User.username }}&text=Dear {{ pendingSlot.Patient.User.get_full_name }}, you had booked a slot for consultation with GentleCure.net." target="blank"><span class="fa fa-whatsapp" style="color: green; font-size: 25px;"></span></a>
+				</td>
+				<td>
+					{{ pendingSlot.DateAlloted }}
+					:
+					{{ pendingSlot.TimeAlloted }}
+				</td>
+				<td>{{ pendingSlot.Description }}</td>
+			</tr>
+		{% endfor %}
+		</table>
+		<br><br>
+	{% else %}
+		<br><br><br>
+		<center>
+			Log in as Super User first
+		</center>
+		<br><br><br>
+		<script>
+			setTimeout(function(){
+	            window.location.href = '/profile';
+	         }, 1000);
+		</script>
+
+	{% endif %}
+
+{% endblock %}

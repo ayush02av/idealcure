@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block HeadBlock %}
+<style>
+	
+</style>
+{% endblock %}
+
+{% block BodyBlock %}
+	{% if treatmentFor %}
+
+		<div class="treatment-card">
+			<strong class="heading">{{ treatmentFor.Name }}</strong>
+			<br>
+			{{ treatmentFor.Description }}
+		</div>
+
+	{% else %}
+
+		{% for treatment in treatments %}
+			<br>
+			<div class="treatment-card">
+				<strong class="sub-heading">{{ treatment.Name }}</strong>
+				<br>
+				<a href="/treatments/{{ treatment.Name }}">Read More</a>
+			</div>
+			<br>
+		{% endfor %}
+
+	{% endif %}
+{% endblock %}

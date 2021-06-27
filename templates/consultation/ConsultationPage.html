@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block HeadBlock %}<link rel="stylesheet" type="text/css" href="{% static 'consultation/ConsultationPage.css' %}">{% endblock %}
+
+{% block BodyBlock %}
+
+<div id="outer">
+	<div id="slideshowdiv">
+		<img id="1" class="slide-active" src="{% static 'main/consultation-mobile.jpg' %}">
+		<img id="2" class="slide-inactive" src="{% static 'main/consultation-laptop.png' %}">
+		<img id="3" class="slide-inactive" src="{% static 'main/homeopathy-1.jpg' %}">
+		<img id="4" class="slide-inactive" src="{% static 'main/homeopathy-2.jpg' %}">
+	</div>
+	<div id="container">
+		<div id="consultation-form">
+			{% if request.user.get_full_name == AnonymousUser %}<a style="background: white; padding: 10px;border-radius: 10px;" href="/profile_login">Existing Users Login here</a><br><!-- <h2>OR</h2> -->{% endif %}
+			<br><br>
+			<center>FILL IN THIS FORM TO BOOK A CONSULTATION SESSION</center>
+			<br>
+			<form method="POST">{% csrf_token %}
+				<div id="consultation-form-first-section">
+					<div id="consultation-form-essentials">
+						<input type="name" name="Name" id="name" placeholder="Full Name (required)" value="{{ name }}" required>
+						<br>
+						<input type="number" name="Number" placeholder="Number (required)" value="{{ number }}" required>
+						<br>
+						<input type="email" name="Email" placeholder="Email" value="{{ email }}">
+					</div>
+					<div id="consultation-form-description">
+						<textarea placeholder="Description / Symptoms..." name="description"></textarea>
+					</div>
+				</div>
+				<br><br>
+				<div id="consultation-form-second-section">
+					<input id="slot-date" type="date" name="slot-date" min="{{ mindate }}" max="{{ maxdate }}" required><br><br>
+					<input id="slot-time" name="slot-time" list="" required placeholder="Pick your time *">
+				</div>
+				<br><br>
+				<input type="submit" name="submit" value="Proceed to payment">
+				{% for day,slotlist in slots.items %}
+					<datalist id="{{ day }}">
+						{% for slot in slotlist %}
+							<li>
+								<option>{{ slot.Description }}</option>
+							</li>
+						{% endfor %}
+					</datalist>
+				{% endfor %}
+			</form>
+		</div>
+	</div>
+</div>
+<br><br><br><br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="{% static 'consultation/slotchooser.js' %}"></script>
+<script type="text/javascript" src="{% static 'consultation/slideshow.js' %}"></script>
+<script type="text/javascript">
+	document.getElementById('name').focus();
+</script>
+{% endblock %}

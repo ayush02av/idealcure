@@ -1,0 +1,110 @@
+:root{
+	--width-of-consultation-form-inputs: 250px;
+	--width-of-consultation-form-textarea: 250px;
+	--height-of-consultation-form-textarea: 200px;
+}
+
+input, textarea{
+	width: var(--width-of-consultation-form-inputs);
+	height: 30px;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+textarea{
+	min-height: var(--height-of-consultation-form-textarea);
+	max-height: var(--height-of-consultation-form-textarea);
+	min-width: var(--width-of-consultation-form-textarea);
+	max-width: var(--width-of-consultation-form-textarea);
+}
+
+.slide-active{
+	display: block;
+}
+.slide-inactive{
+	display: none;
+}
+
+#outer{
+	display: inline-flex;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+
+#outer > div{
+	width: 50%;
+	margin: 0;
+}
+
+#outer > div:first-child img{
+	width: 100%;
+	height: 100%;
+}
+
+#container{
+	justify-content: center;
+	text-align: center;
+	width: 50%;
+	margin: 0;
+	padding: 50px 0;
+	border-radius: 10px;
+	background-image: url('/static/main/purplebackground.jpg');
+	margin-bottom: 100px;
+}
+
+#consultation-form > form{
+	display: block;
+}
+
+#consultation-form > form > div{
+	display: inline-flex;
+}
+
+#consultation-form-essentials > input{
+	height: calc(var(--height-of-consultation-form-textarea) / 3 - 30px);
+	margin: 10px 20px;
+	margin-top: 0;
+	max-height: 50px;
+}
+
+#consultation-form-second-section > input{
+	width: calc((var(--width-of-consultation-form-inputs) + var(--width-of-consultation-form-textarea)) / 2);
+	margin: 0 5px;
+}
+
+@media screen and (max-width: 1200px){
+	#outer{
+		display: block;
+	}
+	#outer > div{
+		width: 100%;
+		margin: 0;
+	}
+	#outer > div:first-child img{
+		margin: 0;
+	}
+	#container{
+		width: 90%;
+		margin: 25px 5%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#container{
+		width: 90%;
+		margin: 0 5%;
+	}
+	#consultation-form > form > div{
+		display: block;
+	}
+	textarea{
+		min-width: var(--width-of-consultation-form-inputs);
+		max-width: var(--width-of-consultation-form-inputs);
+	}
+	#consultation-form-second-section > input{
+		width: calc(var(--width-of-consultation-form-inputs));
+		margin: 0 5px;
+		margin-bottom: 0;
+	}
+}

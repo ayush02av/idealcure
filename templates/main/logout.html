@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block BodyBlock %}
+	<br><br><br>
+	<center>LOGGED OUT!</center>
+	<br><br><br><br><br><br>
+
+	<script>
+		setTimeout(function(){
+            window.location.href = '/profile';
+         }, 500);
+	</script>
+{% endblock %}

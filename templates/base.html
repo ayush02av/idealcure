@@ -1,0 +1,103 @@
+<!--
+Made By:-
+ ---------------  ----------------    ----------   ----------   ------------ \                / ---------------- |\        |
+|               \ |               \  /          \  |         \  |             \              /         |         | \       |
+|                 |               / |            | |          \ |              \            /          |         |  \      |
+|                 |---------------  |            | |          | |               \          /           |         |   \     |
+|                 |       \         |------------| |	      | |------------	 \        /            |         |    \    |
+|                 |        \	    |	         | |	      | |                 \      /             |         |     \   |
+|                 |         \	    |            | |	      / |                  \    /              |         |      \  |
+|               / |          \	    |            | |	     /  |                   \  /               |         |       \ |
+ ---------------  |           \	    |            | ----------   -------------	     \/	        ---------------- |        \|
+https://ayush02av.github.io/
+https://www.linkedin.com/in/ayushverma02/
+-->{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ideal Cure</title>
+	<link rel="shortcut icon" href="{% static 'main/logo.jpeg' %}" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="{% static 'main/base.css' %}">
+	{% block HeadBlock %}{% endblock %}
+</head>
+<body>
+
+	<div class="root">
+		<div id="top-nav">
+			<ul>
+				<li><a href="/"><img src="/static/main/logo.jpeg" alt="Gentle Cure Logo" style="height: 80px;"></a></li>
+				<li>
+					<a href="/treatments/all">Treatments Offered <i class="material-icons">expand_more</i></span></a>
+					<ul>
+						{% for treatment in treatments %}
+							<li><a href="/treatments/{{ treatment.Name }}">{{ treatment.Name }}</a></li>
+						{% endfor %}
+					</ul>
+				</li>
+				<li><a href="/consultation/">Online Consultation</a></li>
+				<li><a href="/#why">Why Homoeopathy</a></li>
+				<li><a href="/#faqs">F.A.Q.s</a></li>
+				<li><a href="/#about">About</a></li>
+				<!-- <li><a href="/profile">Profile</a></li> -->
+				<li><a href="/profile">
+				{% if request.user.is_authenticated %}
+					{{ request.user.get_full_name }}
+				{% else %}
+					Profile
+				{% endif %}
+				</a></li>
+			</ul>
+			<!-- {% if AdminLoggedIn == True %}
+				<ul>
+					<li><a href="/admin" target="_blank">Admin Page</a></li>
+				</ul>
+			{% endif %} -->
+		</div>
+		
+		<center>
+			{% if messages %}
+				{% for message in messages %}
+					{{ message }}
+				{% endfor %}
+			{% endif %}
+		</center>
+
+		{% block BodyBlock %}{% endblock %}
+
+		<div id="bottom-section" style="background: rgb(20,20,20); color: white; height: 400px;">
+			<center style="padding-top: 50px;">
+				<div style="height: 300px;">
+					<strong class="heading">
+						Dr. Rashmi's
+					<br>
+					Ideal Cure Homoeopathy & Wellness Clinic
+					</strong>
+					<br><br>
+					B-6/79, Sector-18
+					<br>
+					(Opp. Millenium Apt.)
+					<br>
+					Rohini Delhi-110089
+					<br>
+					<i>( 10 am to 9 pm )</i>
+					<br><br>
+					<strong class="heading">Customer Care</strong>
+					<br>
+					<a href="tel:+918800346979"><i class="material-icons" style="margin-top: 10px;">phone</i> : +91 88-0034-6979</a>
+					<br>
+					<a href="mailto:care@idealcure.net" target="blank"><i class="material-icons" style="margin-top: 10px;">mail</i> : care@idealcure.net</a>
+				</div>
+				<div style="background: white; color: rgb(20,20,20); height: 30px; line-height: 30px; margin-top: 20px; font-family: 'comic sans ms'; ">
+					<a href="https://cradevin.herokuapp.com" target=on_blank>Designed & Developed by <i>Cradevin (Ayush Verma)</i></a>
+				</div>
+			</center>
+		</div>
+
+	</div>
+
+	{% block ScriptBlock %}{% endblock %}
+</body>
+</html>

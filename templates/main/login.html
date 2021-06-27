@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block BodyBlock %}
+	<br><br>
+	<center>Log In</center>
+	<div id="container">
+		<div id="consultation-form">
+			<form method="POST">
+				{% csrf_token %}
+				<center>
+				{{ form.as_p }}
+				<br><br>
+				<input type="submit" name="submit" value="Login"></center>
+			</form>
+		</div>
+	</div>
+	<br><br>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="{% static 'consultation/slotchooser.js' %}"></script>
+	
+{% endblock %}

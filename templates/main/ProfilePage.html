@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block BodyBlock %}
+	<br><br>
+	<center>
+		<a style="padding: 10px; border-radius: 10px; background: purple; color: white;" href="/profile_logout">Log Out</a>
+	</center>
+
+	{% if staff_links %}
+		{% for staff_link in staff_links %}
+			<center>
+				<a href="/{{ staff_link }}">
+					<br>
+					<span style="background: purple; padding: 10px; border-radius: 10px; color: white;">
+						{{ staff_link }}
+					</span>
+				</a>
+			</center>
+		{% endfor %}
+	{% else %}
+		<table>
+			{% for key, value in patient_info.items %}
+				<tr>
+					<td>{{key}}</td>
+					<td> : </td>
+					<td>{{value}}</td>
+				</tr>
+				<br>
+			{% endfor %}
+			<tr>
+				<td>Slots</td>
+				<td> : </td>
+				<td>
+					{% for slot in Slots %}
+						{{ slot.DateAlloted }}, {{ slot.TimeAlloted }}
+					{% endfor %}
+				</td>
+			</tr>
+			<tr>
+				<td>Past Consultations</td>
+				<td> : </td>
+				<td>
+					asd
+					<br>
+					asd
+					<br>
+					asd
+					<br>
+					asd
+					<br>
+					asd
+					<br>
+					asd
+					<br>
+					asd
+					<br>
+					asd
+					<br>
+					asd
+					<br>
+					asd
+					<br>
+					asd
+					<br>
+					asd
+					<br>
+					
+				</td>
+			</tr>
+		</table>
+	{% endif %}
+	<br><br>
+
+{% endblock %}
