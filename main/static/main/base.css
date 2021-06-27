@@ -2,7 +2,7 @@
 	--width-of-consultation-form-inputs: 300px;
 	--width-of-consultation-form-textarea: 200px;
 	--height-of-consultation-form-textarea: 200px;
-	--base-color-1: blue;
+	--base-color-1: #C792DF;
 }
 input, textarea{
 	width: var(--width-of-consultation-form-inputs);
@@ -92,16 +92,24 @@ input[type=submit]{
 	font-family: "cooper";
 	font-weight: bolder;
 	color: blue;
+	color: #51517A;
+}
+.highlight-2{
+	font-family: "cooper";
+	font-weight: bolder;
+	color: #F0F0F0;
+	color: #8CBA8C;
 }
 .heading{
 	font-family: "cooper";
 	font-weight: bolder;
 	color: brown;
+	color: #C43131;
 	font-size: 25px;
 }
 .big-text{
 	font-weight: bolder;
-	color: brown;
+	color: #C43131;
 	font-size: 45px;
 }
 
