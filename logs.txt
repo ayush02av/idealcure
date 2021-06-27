@@ -225,3 +225,8 @@ App 766139 output: [ pid=766139, time=2021-06-27 13:43:26,280 ]: Not Found: /sta
 App 1377702 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
 App 1377702 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
 App 1377702 output: [ pid=1377702, time=2021-06-27 13:49:07,985 ]: Not Found: /static/main/doctorimage.jpg
+App 1377702 output: [ pid=1377702, time=2021-06-27 13:55:16,259 ]: Not Found: /static/main/doctorimage.jpg
+App 1377702 output: [ pid=1377702, time=2021-06-27 13:55:20,520 ]: Not Found: /static/main/doctorimage.jpg
+App 1384969 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 1384969 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 1384969 output: [ pid=1384969, time=2021-06-27 13:55:46,995 ]: Not Found: /static/main/doctorimage.jpg
