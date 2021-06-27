@@ -48,8 +48,6 @@ textarea{
 	width: 50%;
 	margin: 0;
 	padding: 50px 0;
-	border-radius: 10px;
-	background-image: url('/static/main/purplebackground.jpg');
 	margin-bottom: 100px;
 }
 
@@ -83,6 +81,8 @@ textarea{
 	}
 	#outer > div:first-child img{
 		margin: 0;
+		width: 100%;
+		height: 200px;
 	}
 	#container{
 		width: 90%;

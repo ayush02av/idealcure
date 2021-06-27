@@ -2,7 +2,7 @@
 	--width-of-consultation-form-inputs: 300px;
 	--width-of-consultation-form-textarea: 200px;
 	--height-of-consultation-form-textarea: 200px;
-	--base-color-1: #C792DF;
+	--base-color-1: #bbd0c9;
 }
 input, textarea{
 	width: var(--width-of-consultation-form-inputs);
@@ -24,8 +24,8 @@ textarea{
 	width: 50%;
 	margin: 0 25%;
 	padding: 50px 0;
-	border-radius: 10px;
 	background-image: url('/static/main/purplebackground.jpg');
+	background: #bbd0c9;
 	margin-bottom: 100px;
 }
 
