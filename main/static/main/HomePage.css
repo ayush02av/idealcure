@@ -22,7 +22,7 @@
 	display: inline-flex;
 	justify-content: center;
 	text-align: center;
-	background: white;
+	background: rgb(240,240,240);
 	background-image: url('/static/main/leafbackground.jpg');
 	color: black;
 	background-size: cover;
@@ -46,7 +46,7 @@
 #faqs{
 	width: 100%;
 	padding: 80px 0;
-	background-image: url('/static/main/greenbackground.png');
+	background: #99C799;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
