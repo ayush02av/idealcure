@@ -1,4 +1,4 @@
-♦# Ideal Cure Homoeopathy &amp; Wellness Clinic - Website Repository
+# Ideal Cure Homoeopathy &amp; Wellness Clinic - Website Repository
 <br>
 [Website at : https://idealcure.net](https://idealcure.net "Ideal Cure Homoeopathy & Wellness Clinic")
 
