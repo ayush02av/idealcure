@@ -23,7 +23,7 @@
 	justify-content: center;
 	text-align: center;
 	background: rgb(240,240,240);
-	background-image: url('/static/main/leafbackground.jpg');
+	background: #d1edee;
 	color: black;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -47,6 +47,7 @@
 	width: 100%;
 	padding: 80px 0;
 	background: #99C799;
+	background: #bcf5bc;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -65,6 +66,7 @@
 #about{
 	padding: 80px 5%;
 	background-image: url('/static/main/leafbackground.jpg');
+	background: #d1edee;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
