@@ -2,7 +2,7 @@
 	--width-of-consultation-form-inputs: 300px;
 	--width-of-consultation-form-textarea: 200px;
 	--height-of-consultation-form-textarea: 200px;
-	--base-color-1: #bbd0c9;
+	--base-color-1: blue;
 }
 input, textarea{
 	width: var(--width-of-consultation-form-inputs);
@@ -203,8 +203,4 @@ tr:nth-child(odd) {
 	.big-text{
 		font-size: 30px;
 	}
-}
-
-@media screen and (max-width: 600px){
-	
 }
