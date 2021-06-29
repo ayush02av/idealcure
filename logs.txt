@@ -1,232 +1,524 @@
-App 287553 output: Not Found: /static/main/doctorimage.jpg
-App 287553 output: [ pid=287553, time=2021-06-27 11:19:54,283 ]: Not Found: /static/main/doctorimage.jpg
-App 287553 output: Not Found: /static/main/logo.jpeg
-App 287553 output: [ pid=287553, time=2021-06-27 11:19:54,289 ]: Not Found: /static/main/logo.jpeg
-App 287553 output: Not Found: /static/main/logo.jpeg
-App 287553 output: [ pid=287553, time=2021-06-27 11:19:54,563 ]: Not Found: /static/main/logo.jpeg
-App 757904 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-App 757904 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
-App 757904 output: Traceback (most recent call last):
-App 757904 output:   File "/opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py", line 381, in <module>
-App 757904 output:     
-App 757904 output: handler = RequestHandler(server_socket, sys.stdin, app_module.application)
-App 757904 output: 
-App 757904 output: AttributeError: module 'passenger_wsgi' has no attribute 'application'
-App 287553 output: Not Found: /static/main/base.css
-App 287553 output: [ pid=287553, time=2021-06-27 11:20:50,716 ]: Not Found: /static/main/base.css
-App 287553 output: Not Found: /static/main/HomePage.css
-App 287553 output: [ pid=287553, time=2021-06-27 11:20:56,593 ]: Not Found: /static/main/HomePage.css
-App 287553 output: Not Found: /static/main/logo.jpeg
-App 287553 output: [ pid=287553, time=2021-06-27 11:20:56,902 ]: Not Found: /static/main/logo.jpeg
-App 287553 output: Not Found: /static/main/faqtoggle.js
-App 287553 output: [ pid=287553, time=2021-06-27 11:20:57,043 ]: Not Found: /static/main/faqtoggle.js
-App 287553 output: Not Found: /static/main/doctorimage.jpg
-App 287553 output: [ pid=287553, time=2021-06-27 11:20:57,515 ]: Not Found: /static/main/doctorimage.jpg
-App 287553 output: Not Found: /static/main/logo.jpeg
-App 287553 output: [ pid=287553, time=2021-06-27 11:20:57,806 ]: Not Found: /static/main/logo.jpeg
-App 287553 output: Not Found: /static/main/base.css
-App 287553 output: [ pid=287553, time=2021-06-27 11:23:38,095 ]: Not Found: /static/main/base.css
-App 287553 output: Not Found: /static/main/HomePage.css
-App 287553 output: [ pid=287553, time=2021-06-27 11:23:38,730 ]: Not Found: /static/main/HomePage.css
-App 287553 output: Not Found: /static/main/faqtoggle.js
-App 287553 output: [ pid=287553, time=2021-06-27 11:23:38,952 ]: Not Found: /static/main/faqtoggle.js
-App 287553 output: Not Found: /static/main/logo.jpeg
-App 287553 output: [ pid=287553, time=2021-06-27 11:23:39,390 ]: Not Found: /static/main/logo.jpeg
-App 287553 output: Not Found: /static/main/doctorimage.jpg
-App 287553 output: [ pid=287553, time=2021-06-27 11:23:39,486 ]: Not Found: /static/main/doctorimage.jpg
-App 287553 output: Not Found: /static/main/base.css
-App 287553 output: [ pid=287553, time=2021-06-27 11:23:41,628 ]: Not Found: /static/main/base.css
-App 287553 output: Not Found: /static/main/HomePage.css
-App 287553 output: [ pid=287553, time=2021-06-27 11:23:41,674 ]: Not Found: /static/main/HomePage.css
-App 287553 output: Not Found: /static/main/faqtoggle.js
-App 287553 output: [ pid=287553, time=2021-06-27 11:23:41,736 ]: Not Found: /static/main/faqtoggle.js
-App 287553 output: Not Found: /static/main/logo.jpeg
-App 287553 output: [ pid=287553, time=2021-06-27 11:23:43,322 ]: Not Found: /static/main/logo.jpeg
-App 287553 output: Not Found: /static/main/doctorimage.jpg
-App 287553 output: [ pid=287553, time=2021-06-27 11:23:43,432 ]: Not Found: /static/main/doctorimage.jpg
-App 287553 output: Not Found: /ayush
-App 287553 output: [ pid=287553, time=2021-06-27 11:24:54,243 ]: Not Found: /ayush
-App 287553 output: Not Found: /favicon.ico
-App 287553 output: [ pid=287553, time=2021-06-27 11:24:54,810 ]: Not Found: /favicon.ico
-App 287553 output: Not Found: /ayush
-App 287553 output: [ pid=287553, time=2021-06-27 11:24:56,263 ]: Not Found: /ayush
-App 287553 output: Not Found: /favicon.ico
-App 287553 output: [ pid=287553, time=2021-06-27 11:24:56,937 ]: Not Found: /favicon.ico
-App 764455 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-App 764455 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
-App 764455 output: Traceback (most recent call last):
-App 764455 output:   File "/opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py", line 381, in <module>
-App 764455 output:     
-App 764455 output: handler = RequestHandler(server_socket, sys.stdin, app_module.application)
-App 764455 output: 
-App 764455 output: AttributeError
-App 764455 output: : 
-App 764455 output: module 'passenger_wsgi' has no attribute 'application'
-App 764455 output: 
-App 764532 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-App 764532 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
-App 764532 output: Traceback (most recent call last):
-App 764532 output:   File "/opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py", line 381, in <module>
-App 764532 output:     
-App 764532 output: handler = RequestHandler(server_socket, sys.stdin, app_module.application)
-App 764532 output: 
-App 764532 output: AttributeError
-App 764532 output: : 
-App 764532 output: module 'passenger_wsgi' has no attribute 'application'
-App 764532 output: 
-App 764840 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-App 764840 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
-App 764840 output: Traceback (most recent call last):
-App 764840 output:   File "/opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py", line 381, in <module>
-App 764840 output:     
-App 764840 output: handler = RequestHandler(server_socket, sys.stdin, app_module.application)
-App 764840 output: 
-App 764840 output: AttributeError
-App 764840 output: : 
-App 764840 output: module 'passenger_wsgi' has no attribute 'application'
-App 764840 output: 
-App 764970 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-App 764970 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
-App 764970 output: Traceback (most recent call last):
-App 764970 output:   File "/opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py", line 381, in <module>
-App 764970 output:     
-App 764970 output: handler = RequestHandler(server_socket, sys.stdin, app_module.application)
-App 764970 output: 
-App 764970 output: AttributeError
-App 764970 output: : 
-App 764970 output: module 'passenger_wsgi' has no attribute 'application'
-App 764970 output: 
-App 766139 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-App 766139 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
-App 766139 output: [ pid=766139, time=2021-06-27 11:26:57,336 ]: Not Found: /ayush
-App 766139 output: [ pid=766139, time=2021-06-27 11:26:57,710 ]: Not Found: /favicon.ico
-App 766139 output: [ pid=766139, time=2021-06-27 11:30:25,478 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:30:46,026 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:30:49,050 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:31:05,804 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:32:11,664 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:32:16,706 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:32:36,080 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:37:32,023 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:38:05,866 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:44:27,989 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:48:53,752 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:52:32,665 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 11:53:25,147 ]: Internal Server Error: /backend/consultation/day/
-App 766139 output: Traceback (most recent call last):
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
-App 766139 output:     response = get_response(request)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
-App 766139 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
-App 766139 output:     return self.admin_site.admin_view(view)(*args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
-App 766139 output:     response = view_func(request, *args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
-App 766139 output:     response = view_func(request, *args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
-App 766139 output:     return view(request, *args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
-App 766139 output:     return bound_method(*args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
-App 766139 output:     response = view_func(request, *args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1739, in changelist_view
-App 766139 output:     response = self.response_action(request, queryset=cl.get_queryset(request))
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1406, in response_action
-App 766139 output:     queryset = queryset.filter(pk__in=selected)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
-App 766139 output:     return self._filter_or_exclude(False, args, kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
-App 766139 output:     clone._filter_or_exclude_inplace(negate, args, kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
-App 766139 output:     self._query.add_q(Q(*args, **kwargs))
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1391, in add_q
-App 766139 output:     clause, _ = self._add_q(q_object, self.used_aliases)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1410, in _add_q
-App 766139 output:     child_clause, needed_inner = self.build_filter(
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1345, in build_filter
-App 766139 output:     condition = self.build_lookup(lookups, col, value)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1191, in build_lookup
-App 766139 output:     lookup = lookup_class(lhs, rhs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
-App 766139 output:     self.rhs = self.get_prep_lookup()
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/lookups.py", line 240, in get_prep_lookup
-App 766139 output:     rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1266, in get_prep_value
-App 766139 output:     return self.to_python(value)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1238, in to_python
-App 766139 output:     raise exceptions.ValidationError(
-App 766139 output: django.core.exceptions.ValidationError: ['“July 3, 2021” value has an invalid date format. It must be in YYYY-MM-DD format.']
-App 766139 output: [ pid=766139, time=2021-06-27 11:53:26,039 ]: Not Found: /favicon.ico
-App 766139 output: [ pid=766139, time=2021-06-27 11:54:16,883 ]: Internal Server Error: /backend/consultation/day/
-App 766139 output: Traceback (most recent call last):
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
-App 766139 output:     response = get_response(request)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
-App 766139 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
-App 766139 output:     return self.admin_site.admin_view(view)(*args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
-App 766139 output:     response = view_func(request, *args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
-App 766139 output:     response = view_func(request, *args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
-App 766139 output:     return view(request, *args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
-App 766139 output:     return bound_method(*args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
-App 766139 output:     response = view_func(request, *args, **kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1739, in changelist_view
-App 766139 output:     response = self.response_action(request, queryset=cl.get_queryset(request))
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1406, in response_action
-App 766139 output:     queryset = queryset.filter(pk__in=selected)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
-App 766139 output:     return self._filter_or_exclude(False, args, kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
-App 766139 output:     clone._filter_or_exclude_inplace(negate, args, kwargs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
-App 766139 output:     self._query.add_q(Q(*args, **kwargs))
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1391, in add_q
-App 766139 output:     clause, _ = self._add_q(q_object, self.used_aliases)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1410, in _add_q
-App 766139 output:     child_clause, needed_inner = self.build_filter(
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1345, in build_filter
-App 766139 output:     condition = self.build_lookup(lookups, col, value)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1191, in build_lookup
-App 766139 output:     lookup = lookup_class(lhs, rhs)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
-App 766139 output:     self.rhs = self.get_prep_lookup()
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/lookups.py", line 240, in get_prep_lookup
-App 766139 output:     rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1266, in get_prep_value
-App 766139 output:     return self.to_python(value)
-App 766139 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1238, in to_python
-App 766139 output:     raise exceptions.ValidationError(
-App 766139 output: django.core.exceptions.ValidationError: ['“July 3, 2021” value has an invalid date format. It must be in YYYY-MM-DD format.']
-App 766139 output: [ pid=766139, time=2021-06-27 12:02:51,447 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:05:04,943 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:05:25,110 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:05:42,361 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:05:57,242 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:06:11,835 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:07:59,165 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:28:38,095 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:28:44,745 ]: Not Found: /favicon.ico
-App 766139 output: [ pid=766139, time=2021-06-27 12:29:06,503 ]: Not Found: /favicon.ico
-App 766139 output: [ pid=766139, time=2021-06-27 12:43:06,202 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:43:12,490 ]: Not Found: /favicon.ico
-App 766139 output: [ pid=766139, time=2021-06-27 12:45:54,140 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:57:32,631 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 12:57:49,172 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 13:19:46,276 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 13:26:53,259 ]: Not Found: /static/main/doctorimage.jpg
-App 766139 output: [ pid=766139, time=2021-06-27 13:26:55,659 ]: Not Found: /favicon.ico
-App 766139 output: [ pid=766139, time=2021-06-27 13:43:26,280 ]: Not Found: /static/main/doctorimage.jpg
-App 1377702 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-App 1377702 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
-App 1377702 output: [ pid=1377702, time=2021-06-27 13:49:07,985 ]: Not Found: /static/main/doctorimage.jpg
-App 1377702 output: [ pid=1377702, time=2021-06-27 13:55:16,259 ]: Not Found: /static/main/doctorimage.jpg
-App 1377702 output: [ pid=1377702, time=2021-06-27 13:55:20,520 ]: Not Found: /static/main/doctorimage.jpg
-App 1384969 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-App 1384969 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
-App 1384969 output: [ pid=1384969, time=2021-06-27 13:55:46,995 ]: Not Found: /static/main/doctorimage.jpg
+App 1627595 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 1627595 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 1627595 output: [ pid=1627595, time=2021-06-27 15:02:05,613 ]: Not Found: /static/main/doctorimage.jpg
+App 1627595 output: [ pid=1627595, time=2021-06-27 15:07:18,164 ]: Not Found: /static/main/doctorimage.jpg
+App 1627595 output: [ pid=1627595, time=2021-06-27 15:09:30,897 ]: Not Found: /static/main/doctorimage.jpg
+App 1627595 output: [ pid=1627595, time=2021-06-27 15:10:38,236 ]: Not Found: /static/main/doctorimage.jpg
+App 1627595 output: [ pid=1627595, time=2021-06-27 15:10:56,935 ]: Not Found: /static/main/doctorimage.jpg
+App 1627595 output: [ pid=1627595, time=2021-06-27 15:11:27,540 ]: Not Found: /favicon.ico
+App 1627595 output: [ pid=1627595, time=2021-06-27 15:15:08,300 ]: Internal Server Error: /consultation/
+App 1627595 output: Traceback (most recent call last):
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/pymysql/connections.py", line 613, in connect
+App 1627595 output:     sock = socket.create_connection(
+App 1627595 output:   File "/opt/alt/python38/lib64/python3.8/socket.py", line 808, in create_connection
+App 1627595 output:     raise err
+App 1627595 output:   File "/opt/alt/python38/lib64/python3.8/socket.py", line 796, in create_connection
+App 1627595 output:     sock.connect(sa)
+App 1627595 output: OSError: [Errno 99] Cannot assign requested address
+App 1627595 output: 
+App 1627595 output: During handling of the above exception, another exception occurred:
+App 1627595 output: 
+App 1627595 output: Traceback (most recent call last):
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+App 1627595 output:     self.connect()
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+App 1627595 output:     return func(*args, **kwargs)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+App 1627595 output:     self.connection = self.get_new_connection(conn_params)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+App 1627595 output:     return func(*args, **kwargs)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 234, in get_new_connection
+App 1627595 output:     connection = Database.connect(**conn_params)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/pymysql/connections.py", line 353, in __init__
+App 1627595 output:     self.connect()
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/pymysql/connections.py", line 664, in connect
+App 1627595 output:     raise exc
+App 1627595 output: pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 99] Cannot assign requested address)")
+App 1627595 output: 
+App 1627595 output: The above exception was the direct cause of the following exception:
+App 1627595 output: 
+App 1627595 output: Traceback (most recent call last):
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+App 1627595 output:     response = get_response(request)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+App 1627595 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 1627595 output:   File "/home/mkpkaiea/idealcure/consultation/views.py", line 48, in ConsultationPage
+App 1627595 output:     for day in Day.objects.all():
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 280, in __iter__
+App 1627595 output:     self._fetch_all()
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+App 1627595 output:     self._result_cache = list(self._iterable_class(self))
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+App 1627595 output:     results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+App 1627595 output:     cursor = self.connection.cursor()
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+App 1627595 output:     return func(*args, **kwargs)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/backends/base/base.py", line 259, in cursor
+App 1627595 output:     return self._cursor()
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+App 1627595 output:     self.ensure_connection()
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+App 1627595 output:     return func(*args, **kwargs)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+App 1627595 output:     self.connect()
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+App 1627595 output:     raise dj_exc_value.with_traceback(traceback) from exc_value
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+App 1627595 output:     self.connect()
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+App 1627595 output:     return func(*args, **kwargs)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+App 1627595 output:     self.connection = self.get_new_connection(conn_params)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+App 1627595 output:     return func(*args, **kwargs)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 234, in get_new_connection
+App 1627595 output:     connection = Database.connect(**conn_params)
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/pymysql/connections.py", line 353, in __init__
+App 1627595 output:     self.connect()
+App 1627595 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/pymysql/connections.py", line 664, in connect
+App 1627595 output:     raise exc
+App 1627595 output: django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 99] Cannot assign requested address)")
+App 1627595 output: [ pid=1627595, time=2021-06-27 15:15:09,408 ]: Not Found: /favicon.ico
+App 1967087 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 1967087 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 1967087 output: [ pid=1967087, time=2021-06-27 15:59:43,709 ]: Not Found: /static/main/doctorimage.jpg
+App 2078682 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2078682 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2078682 output: [ pid=2078682, time=2021-06-27 16:24:39,698 ]: Not Found: /static/main/doctorimage.jpg
+App 2085780 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2085780 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2085780 output: [ pid=2085780, time=2021-06-27 16:34:59,932 ]: Not Found: /static/main/doctorimage.jpg
+App 2198775 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2198775 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2252997 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2252997 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2252997 output: [ pid=2252997, time=2021-06-27 17:06:24,791 ]: Not Found: /static/main/doctorimage.jpg
+App 2322755 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2322755 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2436211 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2436211 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2436211 output: [ pid=2436211, time=2021-06-27 18:27:09,670 ]: Not Found: /static/main/doctorimage.jpg
+App 2568166 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2568166 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2568166 output: [ pid=2568166, time=2021-06-27 18:29:49,694 ]: Not Found: /static/main/doctorimage.jpg
+App 2742747 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2742747 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2756170 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2756170 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:18:48,581 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:18:48,835 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:19:13,754 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:20:00,848 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:21:02,669 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:22:25,061 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:24:21,327 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:29:28,651 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:30:48,742 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:32:39,317 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:32:45,399 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:33:55,614 ]: Not Found: /static/main/doctorimage.jpg
+App 2756170 output: [ pid=2756170, time=2021-06-27 19:37:01,293 ]: Not Found: /static/main/doctorimage.jpg
+App 2869344 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2869344 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2869344 output: [ pid=2869344, time=2021-06-27 19:42:03,985 ]: Not Found: /static/main/doctorimage.jpg
+App 2869599 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2869599 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2869344 output: [ pid=2869344, time=2021-06-27 19:42:06,886 ]: Not Found: /favicon.ico
+App 2869344 output: [ pid=2869344, time=2021-06-27 19:45:32,774 ]: Not Found: /static/main/doctorimage.jpg
+App 2869344 output: [ pid=2869344, time=2021-06-27 19:46:51,564 ]: Not Found: /static/main/doctorimage.jpg
+App 2924310 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2924310 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2925524 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2925524 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2925524 output: [ pid=2925524, time=2021-06-27 19:52:32,640 ]: Not Found: /static/main/doctorimage.jpg
+App 2990466 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2990466 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3048819 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3048819 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3048819 output: [ pid=3048819, time=2021-06-27 20:27:52,414 ]: Not Found: /robots.txt
+App 3048819 output: [ pid=3048819, time=2021-06-27 20:28:55,983 ]: Not Found: /static/main/doctorimage.jpg
+App 3048819 output: Psoriasis
+App 3048819 output: 
+App 3048819 output: [ pid=3048819, time=2021-06-27 20:30:58,560 ]: Not Found: /static/main/doctorimage.jpg
+App 3048819 output: [ pid=3048819, time=2021-06-27 20:46:20,577 ]: Not Found: /static/main/doctorimage.jpg
+App 3048819 output: [ pid=3048819, time=2021-06-27 20:46:23,279 ]: Not Found: /static/main/doctorimage.jpg
+App 3048819 output: [ pid=3048819, time=2021-06-27 20:47:07,120 ]: Not Found: /static/main/doctorimage.jpg
+App 3048819 output: [ pid=3048819, time=2021-06-27 21:03:55,985 ]: Not Found: /static/main/doctorimage.jpg
+App 3048819 output: [ pid=3048819, time=2021-06-27 21:04:04,388 ]: Not Found: /static/main/doctorimage.jpg
+App 3048819 output: [ pid=3048819, time=2021-06-27 21:04:30,232 ]: Not Found: /static/main/doctorimage.jpg
+App 3307293 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3307293 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3311509 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3311509 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3307293 output: [ pid=3307293, time=2021-06-27 21:34:35,208 ]: Not Found: /static/main/doctorimage.jpg
+App 3307293 output: [ pid=3307293, time=2021-06-27 21:34:37,587 ]: Not Found: /static/main/doctorimage.jpg
+App 3307293 output: [ pid=3307293, time=2021-06-27 21:34:39,246 ]: Not Found: /static/main/doctorimage.jpg
+App 3341004 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3341004 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3341004 output: [ pid=3341004, time=2021-06-27 21:39:47,756 ]: Not Found: /static/main/doctorimage.jpg
+App 3341004 output: [ pid=3341004, time=2021-06-27 21:40:19,987 ]: Not Found: /static/main/doctorimage.jpg
+App 3341004 output: [ pid=3341004, time=2021-06-27 22:39:38,626 ]: Not Found: /static/main/doctorimage.jpg
+App 3341004 output: [ pid=3341004, time=2021-06-27 22:42:22,338 ]: Not Found: /static/main/doctorimage.jpg
+App 3630054 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3630054 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3630054 output: [ pid=3630054, time=2021-06-27 22:52:12,330 ]: Not Found: /static/main/doctorimage.jpg
+App 3630054 output: [ pid=3630054, time=2021-06-27 23:15:31,925 ]: Not Found: /static/main/doctorimage.jpg
+App 3630054 output: [ pid=3630054, time=2021-06-27 23:19:18,564 ]: Not Found: /static/main/doctorimage.jpg
+App 3630054 output: [ pid=3630054, time=2021-06-27 23:55:53,852 ]: Not Found: /robots.txt
+App 3630054 output: [ pid=3630054, time=2021-06-28 00:06:19,638 ]: Not Found: /services/digestive-disorder/
+App 3630054 output: [ pid=3630054, time=2021-06-28 01:09:03,195 ]: Not Found: /favicon.ico
+App 3630054 output: [ pid=3630054, time=2021-06-28 01:09:47,552 ]: Not Found: /static/main/doctorimage.jpg
+App 3630054 output: all
+App 3630054 output: 
+App 3630054 output: Psoriasis
+App 3630054 output: 
+App 3630054 output: White%2520Spots
+App 3630054 output: 
+App 3630054 output: [ pid=3630054, time=2021-06-28 01:11:26,689 ]: Internal Server Error: /treatments/White%2520Spots/
+App 3630054 output: Traceback (most recent call last):
+App 3630054 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+App 3630054 output:     response = get_response(request)
+App 3630054 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+App 3630054 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 3630054 output:   File "/home/mkpkaiea/idealcure/main/views.py", line 21, in TreatmentsPage
+App 3630054 output:     context['treatmentFor'] = Treatment.objects.filter(Name=treatmentFor)[0]
+App 3630054 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 318, in __getitem__
+App 3630054 output:     return qs._result_cache[0]
+App 3630054 output: IndexError: list index out of range
+App 3630054 output: all
+App 3630054 output: 
+App 3630054 output: [ pid=3630054, time=2021-06-28 01:32:45,060 ]: Not Found: /female-disorder/
+App 111356 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 111356 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 111356 output: [ pid=111356, time=2021-06-28 01:55:19,942 ]: Not Found: /static/main/doctorimage.jpg
+App 111356 output: [ pid=111356, time=2021-06-28 02:15:51,004 ]: Not Found: /static/main/doctorimage.jpg
+App 111356 output: [ pid=111356, time=2021-06-28 05:10:53,800 ]: Not Found: /services/psychological-disorder/
+App 111356 output: [ pid=111356, time=2021-06-28 05:42:55,158 ]: Not Found: /aaa9
+App 111356 output: all
+App 111356 output: 
+App 111356 output: [ pid=111356, time=2021-06-28 06:20:06,852 ]: Not Found: /tel:+918800346979
+App 111356 output: Psoriasis
+App 111356 output: 
+App 111356 output: White%2520Spots
+App 111356 output: 
+App 111356 output: [ pid=111356, time=2021-06-28 06:20:18,903 ]: Internal Server Error: /treatments/White%2520Spots/
+App 111356 output: Traceback (most recent call last):
+App 111356 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+App 111356 output:     response = get_response(request)
+App 111356 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+App 111356 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 111356 output:   File "/home/mkpkaiea/idealcure/main/views.py", line 21, in TreatmentsPage
+App 111356 output:     context['treatmentFor'] = Treatment.objects.filter(Name=treatmentFor)[0]
+App 111356 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 318, in __getitem__
+App 111356 output:     return qs._result_cache[0]
+App 111356 output: IndexError: list index out of range
+App 1601854 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 1601854 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:52,853 ]: Not Found: /wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:53,271 ]: Not Found: /blog/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:53,419 ]: Not Found: /web/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:53,553 ]: Not Found: /wordpress/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:53,691 ]: Not Found: /website/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:53,825 ]: Not Found: /wp/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:53,958 ]: Not Found: /news/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:54,095 ]: Not Found: /2018/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:54,233 ]: Not Found: /2019/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:54,365 ]: Not Found: /shop/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:54,499 ]: Not Found: /wp1/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:54,636 ]: Not Found: /test/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:54,768 ]: Not Found: /media/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:54,902 ]: Not Found: /wp2/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:55,038 ]: Not Found: /site/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:55,171 ]: Not Found: /cms/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:34:55,312 ]: Not Found: /sito/wp-includes/wlwmanifest.xml
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:58:03,109 ]: Not Found: /static/main/doctorimage.jpg
+App 1601854 output: [ pid=1601854, time=2021-06-28 08:58:44,053 ]: Not Found: /static/main/doctorimage.jpg
+App 1601854 output: [ pid=1601854, time=2021-06-28 09:01:02,684 ]: Not Found: /aaa9
+App 1601854 output: [ pid=1601854, time=2021-06-28 09:01:41,434 ]: Not Found: /static/main/doctorimage.jpg
+App 1601854 output: [ pid=1601854, time=2021-06-28 09:05:16,348 ]: Not Found: /static/main/doctorimage.jpg
+App 1601854 output: [ pid=1601854, time=2021-06-28 09:05:21,999 ]: Not Found: /static/main/doctorimage.jpg
+App 1601854 output: [ pid=1601854, time=2021-06-28 09:17:15,897 ]: Not Found: /static/main/doctorimage.jpg
+App 1601854 output: [ pid=1601854, time=2021-06-28 09:33:33,123 ]: Not Found: /static/main/doctorimage.jpg
+App 1931109 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 1931109 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 1931109 output: [ pid=1931109, time=2021-06-28 10:00:50,398 ]: Not Found: /static/main/doctorimage.jpg
+App 1931109 output: [ pid=1931109, time=2021-06-28 10:33:58,769 ]: Not Found: /robots.txt
+App 2495492 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2495492 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2495492 output: [ pid=2495492, time=2021-06-28 12:20:31,714 ]: Not Found: /static/main/doctorimage.jpg
+App 2495492 output: [ pid=2495492, time=2021-06-28 12:30:59,542 ]: Not Found: /static/main/doctorimage.jpg
+App 2495492 output: [ pid=2495492, time=2021-06-28 12:31:07,138 ]: Not Found: /static/main/doctorimage.jpg
+App 2495492 output: [ pid=2495492, time=2021-06-28 12:32:10,010 ]: Not Found: /static/main/doctorimage.jpg
+App 2495492 output: [ pid=2495492, time=2021-06-28 12:32:25,658 ]: Not Found: /static/main/doctorimage.jpg
+App 2495492 output: [ pid=2495492, time=2021-06-28 12:32:41,623 ]: Not Found: /static/main/doctorimage.jpg
+App 2495492 output: [ pid=2495492, time=2021-06-28 12:33:06,785 ]: Not Found: /static/main/doctorimage.jpg
+App 2682654 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2682654 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2682654 output: [ pid=2682654, time=2021-06-28 13:09:44,203 ]: Not Found: /static/main/doctorimage.jpg
+App 2749125 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2749125 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2749262 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2749262 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2854468 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2854468 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2854468 output: [ pid=2854468, time=2021-06-28 13:52:49,703 ]: Not Found: /robots.txt
+App 2854468 output: [ pid=2854468, time=2021-06-28 14:43:35,569 ]: Not Found: /robots.txt
+App 2854468 output: [ pid=2854468, time=2021-06-28 14:43:36,766 ]: Not Found: /robots.txt
+App 3672033 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3672033 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3803297 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3803297 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3986367 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3986367 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 139625 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 139625 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 139625 output: [ pid=139625, time=2021-06-28 20:05:59,321 ]: Not Found: /static/main/doctorimage.jpg
+App 139625 output: [ pid=139625, time=2021-06-28 20:21:43,792 ]: Not Found: /static/main/doctorimage.jpg
+App 139625 output: [ pid=139625, time=2021-06-28 20:41:08,074 ]: Not Found: /static/main/doctorimage.jpg
+App 139625 output: [ pid=139625, time=2021-06-28 20:41:23,156 ]: Not Found: /static/main/doctorimage.jpg
+App 139625 output: [ pid=139625, time=2021-06-28 21:05:12,368 ]: Not Found: /.git/index
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:17,215 ]: Not Found: /wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:18,226 ]: Not Found: /blog/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:18,504 ]: Not Found: /web/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:18,815 ]: Not Found: /wordpress/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:19,124 ]: Not Found: /website/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:19,406 ]: Not Found: /wp/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:19,712 ]: Not Found: /news/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:20,010 ]: Not Found: /2018/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:20,310 ]: Not Found: /2019/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:20,616 ]: Not Found: /shop/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:20,912 ]: Not Found: /wp1/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:21,222 ]: Not Found: /test/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:21,525 ]: Not Found: /media/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:21,816 ]: Not Found: /wp2/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:22,210 ]: Not Found: /site/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:22,528 ]: Not Found: /cms/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:22,830 ]: Not Found: /sito/wp-includes/wlwmanifest.xml
+App 139625 output: [ pid=139625, time=2021-06-28 21:25:30,621 ]: Not Found: /static/main/doctorimage.jpg
+App 846253 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 846253 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 852208 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 852208 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 967873 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 967873 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 967873 output: [ pid=967873, time=2021-06-28 23:44:19,673 ]: Not Found: /static/main/doctorimage.jpg
+App 967873 output: [ pid=967873, time=2021-06-29 00:39:07,424 ]: Not Found: /static/main/doctorimage.jpg
+App 967873 output: [ pid=967873, time=2021-06-29 00:40:23,532 ]: Not Found: /static/main/doctorimage.jpg
+App 967873 output: [ pid=967873, time=2021-06-29 00:43:50,575 ]: Not Found: /robots.txt
+App 967873 output: [ pid=967873, time=2021-06-29 00:43:50,920 ]: Not Found: /robots.txt
+App 967873 output: [ pid=967873, time=2021-06-29 00:56:14,878 ]: Not Found: /robots.txt
+App 967873 output: [ pid=967873, time=2021-06-29 00:56:15,208 ]: Not Found: /robots.txt
+App 967873 output: [ pid=967873, time=2021-06-29 00:57:05,659 ]: Not Found: /robots.txt
+App 1482672 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 1482672 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 1482672 output: [ pid=1482672, time=2021-06-29 01:55:45,190 ]: Not Found: /robots.txt
+App 1482672 output: [ pid=1482672, time=2021-06-29 04:31:47,627 ]: Not Found: /aaa9
+App 1482672 output: [ pid=1482672, time=2021-06-29 04:36:08,293 ]: Not Found: /robots.txt
+App 2334855 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2334855 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2334998 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 2334998 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 2334998 output: [ pid=2334998, time=2021-06-29 08:59:04,870 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:01:05,124 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:02:49,336 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: Diabetes%2520mellitus(sugar)
+App 2334998 output: 
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:03:10,341 ]: Internal Server Error: /treatments/Diabetes%2520mellitus(sugar)/
+App 2334998 output: Traceback (most recent call last):
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+App 2334998 output:     response = get_response(request)
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+App 2334998 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 2334998 output:   File "/home/mkpkaiea/idealcure/main/views.py", line 21, in TreatmentsPage
+App 2334998 output:     context['treatmentFor'] = Treatment.objects.filter(Name=treatmentFor)[0]
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 318, in __getitem__
+App 2334998 output:     return qs._result_cache[0]
+App 2334998 output: IndexError: list index out of range
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:03:10,780 ]: Not Found: /favicon.ico
+App 2334998 output: Diabetes%2520mellitus(sugar)
+App 2334998 output: 
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:03:14,308 ]: Internal Server Error: /treatments/Diabetes%2520mellitus(sugar)/
+App 2334998 output: Traceback (most recent call last):
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+App 2334998 output:     response = get_response(request)
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+App 2334998 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 2334998 output:   File "/home/mkpkaiea/idealcure/main/views.py", line 21, in TreatmentsPage
+App 2334998 output:     context['treatmentFor'] = Treatment.objects.filter(Name=treatmentFor)[0]
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 318, in __getitem__
+App 2334998 output:     return qs._result_cache[0]
+App 2334998 output: IndexError: list index out of range
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:03:14,576 ]: Not Found: /favicon.ico
+App 2334998 output: all
+App 2334998 output: Asthma%2520and%2520Respiratory%2520diseases
+App 2334998 output: 
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:03:19,961 ]: Internal Server Error: /treatments/Asthma%2520and%2520Respiratory%2520diseases/
+App 2334998 output: Traceback (most recent call last):
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+App 2334998 output:     response = get_response(request)
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+App 2334998 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 2334998 output:   File "/home/mkpkaiea/idealcure/main/views.py", line 21, in TreatmentsPage
+App 2334998 output:     context['treatmentFor'] = Treatment.objects.filter(Name=treatmentFor)[0]
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 318, in __getitem__
+App 2334998 output:     return qs._result_cache[0]
+App 2334998 output: IndexError: list index out of range
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:03:23,251 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: Hypertension
+App 2334998 output: Child%2520&%2520family%2520counselling
+App 2334998 output: 
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:03:39,087 ]: Internal Server Error: /treatments/Child%2520&%2520family%2520counselling/
+App 2334998 output: Traceback (most recent call last):
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+App 2334998 output:     response = get_response(request)
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+App 2334998 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 2334998 output:   File "/home/mkpkaiea/idealcure/main/views.py", line 21, in TreatmentsPage
+App 2334998 output:     context['treatmentFor'] = Treatment.objects.filter(Name=treatmentFor)[0]
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 318, in __getitem__
+App 2334998 output:     return qs._result_cache[0]
+App 2334998 output: IndexError: list index out of range
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:03:57,582 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: Hypertension
+App 2334998 output: 
+App 2334998 output: all
+App 2334998 output: Hypertension
+App 2334998 output: 
+App 2334998 output: Diabetes%2520mellitus(sugar)
+App 2334998 output: 
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:04:12,226 ]: Internal Server Error: /treatments/Diabetes%2520mellitus(sugar)/
+App 2334998 output: Traceback (most recent call last):
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+App 2334998 output:     response = get_response(request)
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+App 2334998 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 2334998 output:   File "/home/mkpkaiea/idealcure/main/views.py", line 21, in TreatmentsPage
+App 2334998 output:     context['treatmentFor'] = Treatment.objects.filter(Name=treatmentFor)[0]
+App 2334998 output:   File "/home/mkpkaiea/virtualenv/idealcure/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 318, in __getitem__
+App 2334998 output:     return qs._result_cache[0]
+App 2334998 output: IndexError: list index out of range
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:08:16,631 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: Diabetes
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:09:39,387 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: Diabetes
+App 2334998 output: 
+App 2334998 output: all
+App 2334998 output: Diabetes
+App 2334998 output: 
+App 2334998 output: all
+App 2334998 output: 
+App 2334998 output: all
+App 2334998 output: all
+App 2334998 output: 
+App 2334998 output: all
+App 2334998 output: 
+App 2334998 output: all
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:12:11,292 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: all
+App 2334998 output: 
+App 2334998 output: Family
+App 2334998 output: 
+App 2334998 output: Diabetes
+App 2334998 output: 
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:12:20,175 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:13:59,448 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:16:31,258 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:17:07,378 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:17:17,768 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:21:17,629 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:26:16,428 ]: Not Found: /static/main/doctorimage.jpg
+App 2334998 output: [ pid=2334998, time=2021-06-29 09:26:28,763 ]: Not Found: /favicon.ico
+App 3227533 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3227533 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3227533 output: [ pid=3227533, time=2021-06-29 09:27:05,095 ]: Not Found: /favicon.ico
+App 3227533 output: [ pid=3227533, time=2021-06-29 09:27:06,896 ]: Not Found: /static/main/doctorimage.jpg
+App 3227533 output: [ pid=3227533, time=2021-06-29 09:27:08,865 ]: Not Found: /static/main/doctorimage.jpg
+App 3227533 output: [ pid=3227533, time=2021-06-29 09:47:02,246 ]: Not Found: /static/main/doctorimage.jpg
+App 3227533 output: Diabetes
+App 3227533 output: 
+App 3227533 output: Diabetes
+App 3227533 output: 
+App 3227533 output: [ pid=3227533, time=2021-06-29 10:37:36,818 ]: Not Found: /static/main/doctorimage.jpg
+App 3227533 output: Diabetes
+App 3227533 output: 
+App 3227533 output: [ pid=3227533, time=2021-06-29 10:38:31,860 ]: Not Found: /static/main/doctorimage.jpg
+App 3596946 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3596946 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3596946 output: [ pid=3596946, time=2021-06-29 11:00:59,278 ]: Not Found: /static/main/doctorimage.jpg
+App 3596946 output: [ pid=3596946, time=2021-06-29 11:01:16,451 ]: Not Found: /static/main/doctorimage.jpg
+App 3596946 output: Diabetes
+App 3596946 output: 
+App 3596946 output: [ pid=3596946, time=2021-06-29 11:01:54,017 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 3837572 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 3837572 output: [ pid=3837572, time=2021-06-29 11:58:11,487 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: Diabetes
+App 3837572 output: [ pid=3837572, time=2021-06-29 11:58:50,598 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: Diabetes
+App 3837572 output: 
+App 3837572 output: [ pid=3837572, time=2021-06-29 11:59:54,560 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:01:20,077 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:01:23,700 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:01:32,198 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:09,439 ]: Not Found: /wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:14,273 ]: Not Found: /blog/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:14,689 ]: Not Found: /web/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:15,676 ]: Not Found: /wordpress/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:16,071 ]: Not Found: /website/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:16,388 ]: Not Found: /wp/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:16,698 ]: Not Found: /news/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:17,603 ]: Not Found: /2020/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:17,905 ]: Not Found: /2019/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:18,276 ]: Not Found: /shop/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:18,591 ]: Not Found: /wp1/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:18,887 ]: Not Found: /test/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:19,195 ]: Not Found: /wp2/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:19,506 ]: Not Found: /site/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:19,810 ]: Not Found: /cms/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:08:21,102 ]: Not Found: /sito/wp-includes/wlwmanifest.xml
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:22:31,578 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:22:52,763 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:26:02,668 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:35:00,199 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:37:24,340 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:37:26,653 ]: Not Found: /favicon.ico
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:39:41,268 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:39:46,389 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:39:49,990 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: Diabetes
+App 3837572 output: 
+App 3837572 output: Hypertension
+App 3837572 output: 
+App 3837572 output: Diabetes
+App 3837572 output: 
+App 3837572 output: [ pid=3837572, time=2021-06-29 12:59:14,589 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 13:00:14,904 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 13:33:56,239 ]: Not Found: /static/main/doctorimage.jpg
+App 3837572 output: [ pid=3837572, time=2021-06-29 13:33:59,912 ]: Not Found: /static/main/doctorimage.jpg
+App 249906 output: /opt/passenger-5.3.7-13.el7.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 249906 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 249906 output: [ pid=249906, time=2021-06-29 14:30:24,578 ]: Not Found: /static/main/doctorimage.jpg
+App 249906 output: Diabetes
+App 249906 output: 
+App 249906 output: [ pid=249906, time=2021-06-29 14:30:42,618 ]: Not Found: /static/main/doctorimage.jpg
+App 249906 output: [ pid=249906, time=2021-06-29 15:29:30,549 ]: Not Found: /static/main/doctorimage.jpg
+App 249906 output: [ pid=249906, time=2021-06-29 15:29:46,983 ]: Not Found: /static/main/doctorimage.jpg
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:09,362 ]: Not Found: /wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:10,145 ]: Not Found: /blog/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:10,397 ]: Not Found: /web/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:10,653 ]: Not Found: /wordpress/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:10,907 ]: Not Found: /website/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:11,160 ]: Not Found: /wp/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:11,414 ]: Not Found: /news/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:11,664 ]: Not Found: /2018/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:11,916 ]: Not Found: /2019/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:12,171 ]: Not Found: /shop/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:12,429 ]: Not Found: /wp1/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:12,682 ]: Not Found: /test/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:12,951 ]: Not Found: /media/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:13,215 ]: Not Found: /wp2/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:13,491 ]: Not Found: /site/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:13,804 ]: Not Found: /cms/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 15:58:14,108 ]: Not Found: /sito/wp-includes/wlwmanifest.xml
+App 249906 output: [ pid=249906, time=2021-06-29 16:10:36,891 ]: Not Found: /robots.txt
