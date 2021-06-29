@@ -1,31 +1,48 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block HeadBlock %}
-<style>
-	
-</style>
+	<link rel="stylesheet" type="text/css" href="{% static 'main/TreatmentPage.css' %}">
 {% endblock %}
 
 {% block BodyBlock %}
-	{% if treatmentFor %}
 
-		<div class="treatment-card">
-			<strong class="heading">{{ treatmentFor.Name }}</strong>
-			<br>
-			{{ treatmentFor.Description }}
-		</div>
-
-	{% else %}
-
-		{% for treatment in treatments %}
-			<br>
+	<div id="treatment-container">
+		<div id="treatment-details">
 			<div class="treatment-card">
-				<strong class="sub-heading">{{ treatment.Name }}</strong>
+				<div class="heading treatment-heading">{{ treatmentFor.Name }}</div>
 				<br>
-				<a href="/treatments/{{ treatment.Name }}">Read More</a>
+				<div style="text-align: left;">
+					{{ treatmentFor.Description |safe }}
+				</div>
 			</div>
-			<br>
-		{% endfor %}
+		</div>
+		<div id="treatments-bar">
+			<br><br>
+			<strong class="heading" style="border-bottom: 1px solid black;">Other Treatments offered</strong>
+			<br><br>
+			{% for treatment in treatments %}
+				<div class="treatment-card-brief">
+					<strong class="sub-heading">{{ treatment.Name }}</strong>
+					<br>
+					<a href="/treatments/{{ treatment.Name }}">Read More</a>
+					<br><br>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
 
-	{% endif %}
+	<div style="
+		background: lightblue;
+		text-align: center;
+		padding: 20px;
+		margin: 30px 0;
+	">
+		Dr.Rashmi's Ideal Cure Homoeopathy & Wellness Clinic can help you with {{ treatmentFor.Name }}.
+		<br><br>
+		<a class="heading" href="/consultation">
+			Book a live consultation session NOW!
+		</a>
+	</div>
+
 {% endblock %}

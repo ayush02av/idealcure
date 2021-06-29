@@ -1,0 +1,53 @@
+#treatment-container{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-flex;
+}
+
+#treatment-details{
+	width: 65%;
+	margin-left: 5%;
+}
+
+#treatments-bar{
+	width: 25%;
+	margin: 0 2.5%;
+}
+
+.treatment-card{
+	text-align: center;
+}
+
+.treatment-heading{
+	background: lightblue;
+	padding: 20px 0;
+	border-top-left-radius: 10px;
+}
+
+.treatment-card-brief{
+	
+}
+
+@media screen and (max-width: 1200px){
+	#treatment-container{
+		display: block;
+	}
+
+	#treatment-details{
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	#treatments-bar{
+		width: 30%;
+		margin: 0 35%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#treatments-bar{
+		width: 80%;
+		margin: 0 10%;
+	}
+}
