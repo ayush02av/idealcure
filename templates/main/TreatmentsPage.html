@@ -9,8 +9,8 @@
 
 	<div id="treatment-container">
 		<div id="treatment-details">
+			<div class="heading treatment-heading">{{ treatmentFor.Name }}</div>
 			<div class="treatment-card">
-				<div class="heading treatment-heading">{{ treatmentFor.Name }}</div>
 				<br>
 				<div style="text-align: left;">
 					{{ treatmentFor.Description |safe }}
@@ -37,7 +37,7 @@
 		text-align: center;
 		padding: 20px;
 		margin: 30px 0;
-	">
+	" class="toconsultation">
 		Dr.Rashmi's Ideal Cure Homoeopathy & Wellness Clinic can help you with {{ treatmentFor.Name }}.
 		<br><br>
 		<a class="heading" href="/consultation">

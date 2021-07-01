@@ -8,6 +8,7 @@
 #treatment-details{
 	width: 65%;
 	margin-left: 5%;
+	background: rgb(240, 240, 240);
 }
 
 #treatments-bar{
@@ -17,12 +18,14 @@
 
 .treatment-card{
 	text-align: center;
+	padding: 20px;
 }
 
 .treatment-heading{
 	background: lightblue;
 	padding: 20px 0;
 	border-top-left-radius: 10px;
+	text-align: center;
 }
 
 .treatment-card-brief{
