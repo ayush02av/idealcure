@@ -21,7 +21,7 @@ def MakeSlots():
 			day.delete()
 
 	#Creating new slots from today onwards
-	for day in range(8):
+	for day in range(60):
 		date = today + datetime.timedelta(hours=(24*(day)))
 		if date.isoweekday() != 7:
 			try:
