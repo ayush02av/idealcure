@@ -51,9 +51,12 @@
 	</div>
 </div>
 <br><br><br><br>
-<script type="text/javascript" src="{% static 'consultation/slotchooser.js' %}"></script>
-<script type="text/javascript" src="{% static 'consultation/slideshow.js' %}"></script>
-<script type="text/javascript">
-	document.getElementById('name').focus();
-</script>
+{% endblock %}
+
+{% block ScriptBlock %}
+	<script type="text/javascript" src="{% static 'consultation/slotchooser.js' %}"></script>
+	<script type="text/javascript" src="{% static 'consultation/slideshow.js' %}"></script>
+	<script type="text/javascript">
+		document.getElementById('name').focus();
+	</script>
 {% endblock %}
