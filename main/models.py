@@ -32,6 +32,7 @@ class PatientFile(models.Model):
 class Treatment(models.Model):
 	Name = models.CharField(max_length=50, primary_key=True)
 	Description = models.TextField()
+	ImageLink = models.CharField(max_length=50, null=True, blank=True)
 
 	def __str__(self):
 		return self.Name

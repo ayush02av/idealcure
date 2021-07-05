@@ -12,7 +12,12 @@
 			<div class="heading treatment-heading">{{ treatmentFor.Name }}</div>
 			<div class="treatment-card">
 				<br>
-				<div style="text-align: left;">
+				{% if treatmentFor.ImageLink %}
+					<div id="treatment-img">
+						<img src="{% static 'treatments/' %}{{ treatmentFor.ImageLink }}"> 
+					</div>
+				{% endif %}
+				<div style="text-align: justify;">
 					{{ treatmentFor.Description |safe }}
 				</div>
 			</div>
