@@ -28,6 +28,16 @@
 	text-align: center;
 }
 
+#treatment-img{
+	float: right;
+	padding-left: 20px;
+}
+
+#treatment-img > img{
+	max-width: 500px;
+	border-radius: 10px;
+}
+
 .treatment-card-brief{
 	
 }
@@ -45,6 +55,12 @@
 	#treatments-bar{
 		width: 30%;
 		margin: 0 35%;
+	}
+	#treatment-img{
+		padding-left: 0;
+	}
+	#treatment-img > img{
+		max-width: 100%;
 	}
 }
 
