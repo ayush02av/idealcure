@@ -4,11 +4,11 @@ function toggleFaq(id){
 
 	if( ans.style.display != "block" ){
 		ans.style.display = "block";
-		icon.innerHTML = 'expand';
+		icon.innerHTML = 'expand_less';
 	}
 	else{
 		ans.style.display = "none";
-		icon.innerHTML = 'compress';
+		icon.innerHTML = 'expand_more';
 	}
 
 }

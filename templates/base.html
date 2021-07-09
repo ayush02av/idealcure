@@ -41,7 +41,6 @@ https://www.linkedin.com/in/ayushverma02/
 				<li><a href="/#why">Why Homoeopathy</a></li>
 				<li><a href="/#faqs">F.A.Q.s</a></li>
 				<li><a href="/#about">About</a></li>
-				<!-- <li><a href="/profile">Profile</a></li> -->
 				<li><a href="/profile">
 				{% if request.user.is_authenticated %}
 					{{ request.user.get_full_name }}
@@ -50,11 +49,31 @@ https://www.linkedin.com/in/ayushverma02/
 				{% endif %}
 				</a></li>
 			</ul>
-			<!-- {% if AdminLoggedIn == True %}
-				<ul>
-					<li><a href="/admin" target="_blank">Admin Page</a></li>
-				</ul>
-			{% endif %} -->
+		</div>
+		<div id="burger-container">
+			<div id="burger"><i id="burger-menu" class="material-icons">menu</i></div>
+			<ul id="burger-items">
+				<li><a href="/">Home</a></li>
+				<li class="burger-collapsable-item">
+					Treatments Offered <i class="material-icons">expand_more</i>
+					<ul>
+						{% for treatment in treatments %}
+							<li><a href="/treatments/{{ treatment.Name }}">{{ treatment.Name }}</a></li>
+						{% endfor %}
+					</ul>
+				</li>
+				<li><a href="/consultation">Online Consultation</a></li>
+				<li class="burger-item"><a href="/#why">Why Homoeopathy</a></li>
+				<li class="burger-item"><a href="/#faqs">F.A.Q.s</a></li>
+				<li class="burger-item"><a href="/#about">About</a></li>
+				<li><a href="/profile">
+				{% if request.user.is_authenticated %}
+					{{ request.user.get_full_name }}
+				{% else %}
+					Profile
+				{% endif %}
+				</a></li>
+			</ul>
 		</div>
 		
 		<center>
