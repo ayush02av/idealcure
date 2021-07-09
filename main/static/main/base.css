@@ -193,31 +193,17 @@ tr:nth-child(odd) {
 	padding: 0px 50px;
 }
 
-#top-nav-mobile{
-	display: none;
-	justify-content: center;
-	text-align: center;
-	position: sticky;
-	top: 80px;
-	height: 24px;
-	background: rgb(240,240,240);
-	overflow-y: hidden;
-}
-
-#top-nav-mobile > ul{
-	justify-content: center;
-	text-align: center;
-}
-
 #burger-container{
 	display: none;
 	cursor: pointer;
 	position: fixed;
 	margin-top: -60px;
-	width: 40px;
+	width: 60px;
 }
 #burger{
-	background: purple;
+	margin-left: 20px;
+	background: #51517A;
+	color: #F0F0F0;
 	border-radius: 20px;
 	width: 40px;
 	height: 40px;
@@ -227,19 +213,21 @@ tr:nth-child(odd) {
 }
 #burger-items{
 	display: none;
+	border-radius: 20px;
+	margin-left: 5px;
 	width: 250px;
 	height: 400px;
 	line-height: 50px;
 	padding: 50px;
-	background: rgb(240,240,240);
-	background: lightblue;
-	color: black;
+	background: #51517A; 
+	color: #F0F0F0;
 	overflow-y: scroll;
 }
 #burger-items > .burger-collapsable-item > ul{
 	margin-left: 25px;
 	display: none;
 	font-size: 17px;
+	color: #8CBA8C;
 }
 
 @media screen and (max-width: 1200px){
