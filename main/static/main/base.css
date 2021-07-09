@@ -145,6 +145,7 @@ tr:nth-child(odd) {
 	display: inline-flex;
 	height: 80px;
 	width: inherit;
+	overflow-y: hidden;
 }
 #top-nav > ul > li{
 	margin: 0px 30px;
@@ -192,6 +193,54 @@ tr:nth-child(odd) {
 	padding: 0px 50px;
 }
 
+#top-nav-mobile{
+	display: none;
+	justify-content: center;
+	text-align: center;
+	position: sticky;
+	top: 80px;
+	height: 24px;
+	background: rgb(240,240,240);
+	overflow-y: hidden;
+}
+
+#top-nav-mobile > ul{
+	justify-content: center;
+	text-align: center;
+}
+
+#burger-container{
+	display: none;
+	cursor: pointer;
+	position: fixed;
+	margin-top: -60px;
+	width: 40px;
+}
+#burger{
+	background: purple;
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bolder;
+}
+#burger-items{
+	display: none;
+	width: 250px;
+	height: 400px;
+	line-height: 50px;
+	padding: 50px;
+	background: rgb(240,240,240);
+	background: lightblue;
+	color: black;
+	overflow-y: scroll;
+}
+#burger-items > .burger-collapsable-item > ul{
+	margin-left: 25px;
+	display: none;
+	font-size: 17px;
+}
 
 @media screen and (max-width: 1200px){
 	#top-nav ul{
@@ -206,5 +255,8 @@ tr:nth-child(odd) {
 	}
 	.big-text{
 		font-size: 30px;
+	}
+	#burger-container{
+		display: block;
 	}
 }
