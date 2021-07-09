@@ -26,9 +26,13 @@ $(".burger-item").click(function(){
 
 $(".burger-collapsable-item").click(function(){
 	var inner_ul = this.getElementsByTagName('ul')[0];
+	var sign = this.getElementsByTagName('i')[0];
+
 	if(inner_ul.style.display == "block"){
 		inner_ul.style.display = "none";
+		sign.innerHTML = "expand_more";
 	}else{
 		inner_ul.style.display = "block";
+		sign.innerHTML = "expand_less";
 	}
 });
