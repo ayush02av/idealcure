@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block HeadBlock %}<link rel="stylesheet" type="text/css" href="{% static 'consultation/plans.css' %}">{% endblock %}
+
+{% block BodyBlock %}
+	<div id="main">
+		<br>
+		<i>
+			Dr. Rashmi's Homoeopathy & Wellness Clinic offers you the best of the affordable Treatment Plans.
+			Choose them as per your need :
+		</i>
+		<br><br>
+		<span class="big-text"><center><a href="/consultation/" style="background: turquoise;color: black;font-size: 22px;padding: 10px;border-radius: 10px;">BOOK A SESSION NOW!</a></center></span>
+		<br>
+		<table>
+			<tr>
+				<th>S. No.</th>
+				<th>Price</th>
+				<th>Duration</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>250</td>
+				<td>Each single consultation session with prescription but without medicine.</td>
+				<td>Suitable for those who are having some acute problem or are seeking a second opinion for their treatment. Can be converted to other plans if needed.</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>500</td>
+				<td>10 days' medicine</td>
+				<td>Consultation fee waived off.</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>1,000</td>
+				<td>20 days' medicine</td>
+				<td>Consultation fee waived off</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>1,400</td>
+				<td>30 days' medicine</td>
+				<td>Consultation fee waived off</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>4,000</td>
+				<td>3 months' medicine</td>
+				<td>Consultation fee waived off</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>7,000</td>
+				<td>6 months' medicine</td>
+				<td>Consultation fee waived off</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>12,000</td>
+				<td>1 year's medicine</td>
+				<td>Consultation fee waived off</td>
+			</tr>
+		</table>
+	</div>
+	<br><br>
+{% endblock %}
+
+{% block ScriptBlock %}
+
+{% endblock %}

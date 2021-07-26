@@ -1,0 +1,70 @@
+#main{
+	justify-content: center;
+	text-align: center;
+	background: lightyellow;
+	width: 60%;
+	margin: 0 calc(20% - 20px);
+	padding: 20px;
+}
+
+table{
+	width: 90%;
+	margin: 0 5%;
+	border: 1px solid green;
+}
+
+tr{
+	background: white;
+	height: 30px;
+	line-height: 30px;
+	font-size: 17px;
+}
+tr:nth-child(odd){
+	background: white;
+	height: 30px;
+	line-height: 30px;
+}
+
+tr:first-child{
+	height: 40px;
+	line-height: 40px;
+	background: lightblue;
+	color: purple;
+}
+
+td:first-child, th:first-child{
+	width: 10%;
+}
+
+td:nth-child(2), th:nth-child(2){
+	width: 20%;
+}
+
+td:nth-child(3), th:nth-child(3){
+	width: 20%;
+}
+
+td:nth-child(4), th:nth-child(4){
+	width: 50%;
+}
+
+td:first-child::after{
+	content: ".";
+}
+td:nth-child(2)::before{
+	content: "INR ";
+}
+td:nth-child(2)::after{
+	content: "/-";
+}
+
+@media screen and (max-width: 1000px){
+	#main{
+		width: 100%;
+		margin: 0;
+	}
+	table{
+		width: 100%;
+		margin: 0;
+	}
+}

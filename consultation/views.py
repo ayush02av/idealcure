@@ -76,3 +76,6 @@ def ConsultationPage(request):
 			context['email'] = user.email
 
 	return render(request, 'consultation/ConsultationPage.html', context)
+
+def Plans(request):
+	return render(request, 'consultation/Plans.html', {'treatments':commonfunctions.Treatments()})
