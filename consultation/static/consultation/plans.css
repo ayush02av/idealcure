@@ -4,6 +4,8 @@
 	background: lightyellow;
 	width: 60%;
 	margin: 0 calc(20% - 20px);
+	width: 90%;
+	margin: 0 calc(5% - 20px);
 	padding: 20px;
 }
 
