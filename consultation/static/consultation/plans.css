@@ -32,6 +32,12 @@ tr:first-child{
 	line-height: 40px;
 	background: lightblue;
 	color: purple;
+	border: 1px solid black;
+	border-top: 1.5px solid black;
+}
+
+td{
+	border: 1px solid black;
 }
 
 td:first-child, th:first-child{
