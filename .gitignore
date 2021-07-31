@@ -2,3 +2,6 @@ databaseupdate.py
 pushtogithub.py
 db.sqlite3
 idealcure/settings.py
+idealcure/__init__.py
+logs.txt
+tmp
