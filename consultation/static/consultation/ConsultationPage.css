@@ -71,6 +71,18 @@ textarea{
 	margin: 0 5px;
 }
 
+.consultation-form-button{
+	cursor: pointer;
+	background: rgb(240, 240, 240);
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.consultation-form-button:hover{
+	background: rgb(220,220,220);
+}
+
 @media screen and (max-width: 1200px){
 	#outer{
 		display: block;
@@ -106,5 +118,70 @@ textarea{
 		width: calc(var(--width-of-consultation-form-inputs));
 		margin: 0 5px;
 		margin-bottom: 0;
+	}
+}
+
+#payment{
+	display: none;
+}
+
+table{
+	width: 90%;
+	margin: 0 5%;
+	border: 1px solid green;
+}
+
+tr{
+	background: white;
+	height: 30px;
+	line-height: 30px;
+	font-size: 17px;
+	cursor: pointer;
+}
+tr:nth-child(odd){
+	background: white;
+	height: 30px;
+	line-height: 30px;
+}
+
+tr:first-child{
+	height: 40px;
+	line-height: 40px;
+	background: orange;
+	color: purple;
+	border: 1px solid black;
+	border-top: 1.5px solid black;
+	cursor: initial;
+}
+
+td{
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 1000px){
+	#payment{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	table{
+		width: 100%;
+		margin: 0;
+	}
+	tr{
+		/*background: lightblue;*/
+		border: 1px solid black;
+	}
+	tr:nth-child(odd){
+		/*background: lightyellow;*/
+	}
+	tr:first-child{
+		display: none;
+	}
+	td{
+		display: block;
+		/*width: 100%;*/
+		text-align: left;
+		border: 0;
 	}
 }

@@ -77,3 +77,32 @@ td:nth-child(2)::after{
 		margin: 0;
 	}
 }
+
+.package-container{
+	display: none;
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.package-card{
+	background: white;
+	font-size: 15px;
+	min-width: 420px;
+	border-radius: 20px;
+	padding: 10px;
+	height: 150px;
+	margin: 20px;
+	box-shadow: 10px 0px 20px lightblue,
+				-10px 0px 20px lightblue,
+				0px 10px 20px lightblue,
+				0px -10px 20px lightblue;
+}
+
+.package-card-active{
+	background: red;
+}
+
+input[type=radio]{
+	display: none;
+}

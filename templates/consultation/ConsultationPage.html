@@ -13,7 +13,7 @@
 	</div>
 	<div id="container">
 		<div id="consultation-form">
-			{% if request.user.get_full_name == AnonymousUser %}<a style="background: white; padding: 10px;border-radius: 10px;" href="/profile_login">Existing Users Login here</a><br><!-- <h2>OR</h2> -->{% endif %}
+			{% if request.user.get_full_name == AnonymousUser %}<a class="consultation-form-button" href="/profile_login">Existing Users Login here</a><br>{% endif %}
 			<br><br>
 			<center>FILL IN THIS FORM TO BOOK A CONSULTATION SESSION</center>
 			<br>
@@ -33,29 +33,58 @@
 				<br><br>
 				<div id="consultation-form-second-section">
 					<input id="slot-date" type="date" name="slot-date" min="{{ mindate }}" max="{{ maxdate }}" required><br><br>
-					<input id="slot-time" name="slot-time" list="" required placeholder="Pick your time *">
+					<input id="slot-time" name="slot-time" list="" required placeholder="Pick your time *" autocomplete="off">
 				</div>
 				<br><br>
-				<input type="submit" name="submit" value="Proceed to payment">
+				<a href="#payment" class="consultation-form-button" onclick="ProceedToPayment()">Choose a treatment plan</a>
 				{% for day,slotlist in slots.items %}
 					<datalist id="{{ day }}">
 						{% for slot in slotlist %}
 							<li>
-								<option>{{ slot.Description }}</option>
+								<option>Timings of the slot : {{ slot.GetSlotDescription }}</option>
 							</li>
 						{% endfor %}
 					</datalist>
 				{% endfor %}
-			</form>
+			<!-- </form> -->
 		</div>
 	</div>
 </div>
-<br><br><br><br>
+<div id="payment">
+	<br><br><br><br><br>
+	<center>
+		<strong>Dr. Rashmi's Homoeopathy & Wellness Clinic offers you the best of the affordable Treatment Plans.</strong>
+		<br>
+		<i>Choose them as per your need :</i>
+	</center>
+	<hr><br>
+	<table>
+		<tr>
+			<th>Price</th>
+			<th>Duration</th>
+			<th>Description</th>
+			<th>Choose the slot</th>
+		</tr>
+	{% for package in packages %}
+		<tr id="{{ package.Price }}" class="package-card" onclick="ChoosePackage(this)">
+			<td>{{ package.GetPrice }}</td>
+			<td>{{ package.GetDuration }}</td>
+			<td>{{ package.Description | safe }}</td>
+			<td><input type="radio" name="package" value="{{ package.Price }}" required></td>
+		</tr>
+	{% endfor %}
+	</table>
+	<center><input class="consultation-form-button" type="submit" name="submit" value="BOOK MY SLOT"></center>
+	<br><br><br><br>
+</div>
+</form>
+
 {% endblock %}
 
 {% block ScriptBlock %}
 	<script type="text/javascript" src="{% static 'consultation/slotchooser.js' %}"></script>
 	<script type="text/javascript" src="{% static 'consultation/slideshow.js' %}"></script>
+	<script type="text/javascript" src="{% static 'consultation/packagechooser.js' %}"></script>
 	<script type="text/javascript">
 		document.getElementById('name').focus();
 	</script>

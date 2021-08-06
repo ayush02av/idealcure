@@ -34,9 +34,9 @@ def MakeSlots():
 				dayToBeAlloted = Day.objects.get(Date=date)
 				for hour in range(5,9):
 					try:
-						slot = Slot.objects.get(DateAlloted=dayToBeAlloted, TimeAlloted=datetime.time(hour,0,0))
+						slot = Slot.objects.get(DateAlloted=dayToBeAlloted, TimeAlloted=datetime.time(12+hour,0,0))
 					except:
-						Slot(DateAlloted=dayToBeAlloted, Patient=None, TimeAlloted=datetime.time(hour,0,0)).save()
+						Slot(DateAlloted=dayToBeAlloted, Patient=None, TimeAlloted=datetime.time(12+hour,0,0)).save()
 					
 					# try:
 					# 	slot = Slot.objects.get(DateAlloted=dayToBeAlloted, Patient=None, TimeAlloted=datetime.time(hour,30,0))

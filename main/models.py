@@ -43,3 +43,34 @@ class FAQ(models.Model):
 
 	def __str__(self):
 		return self.Question
+
+class Package(models.Model):
+	Price = models.IntegerField(primary_key=True)
+	Duration = models.CharField(max_length=10)
+	Description = models.TextField(max_length=100)
+
+	def __str__(self):
+		return self.GetPrice() + " for " + self.Duration
+
+	def GetDuration(self):
+		return self.Duration + " medicine"
+
+	def GetPrice(self):
+		price = str(self.Price)
+
+		if len(price) > 3:
+		    price = price[-len(price):-3]+","+price[-3::]
+
+		if len(price) > 6:
+		    oldprice = "," + price.split(",")[1]
+		    price = price.split(",")[0]
+		    price = price[::-1]
+		    newprice = ''
+		    for i in range(0, len(price), 1):
+		        sta = price[i]
+		        if((i-1) % 2 == 0):
+		            sta += ","
+		        newprice += sta
+		    price = newprice[::-1].lstrip(",") + oldprice
+
+		return "INR " + price + "/-"

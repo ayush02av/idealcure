@@ -9,56 +9,75 @@ import datetime
 from main.views import ProfilePage
 from main.models import Patient
 
+def GetTimestampFromString(date, time):
+	date = datetime.datetime.strptime(date, "%Y-%m-%d").date()
+
+	time = time.split(":", 1)[1].split("to")[0].lstrip().rstrip()
+	time = datetime.datetime.strptime(time, commonfunctions.time_string_format).time()
+
+	timestamp = datetime.datetime.combine(date, time)
+	return timestamp
+
 def ConsultationPage(request):
+	# if request.method == "POST":
+		# print()
+		# print()
+		# print()
+		# for param in request.POST:
+		# 	print(f"{param} : {request.POST[param]}")
+		# Timestamp = GetTimestampFromString(request.POST['slot-date'], request.POST['slot-time'])
+		# print(Timestamp)
+		# print(Slot.objects.filter(DateAlloted=Timestamp.date(), TimeAlloted=Timestamp.time()))
 
-	if request.method == "POST":
+		# print()
+		# print()
+		# print()
 
-		Timestamp = datetime.datetime.strptime(request.POST['slot-date']+' '+request.POST['slot-time'].split(' -')[0], '%Y-%m-%d %H:%M')
+	# print("debug working")
+	# print(request.GET['Name'])
 
-		name = request.POST['Name'].split(' ', 1)
-		first_name = name[0]
-		last_name = name[1] if len(name) > 1 else ''
+	# if request.method == "POST":
 
-		email = request.POST['Email']
+	# 	Timestamp = datetime.datetime.strptime(request.POST['slot-date']+' '+request.POST['slot-time'].split(' -')[0], '%Y-%m-%d %H:%M')
 
-		try:
-			user = commonfunctions.User.objects.get(username=request.POST['Number'])
-		except:
-			password = 'awebdevneedscoding' #str(uuid.uuid4())
-			user = commonfunctions.User.objects.create_user(username=request.POST['Number'], first_name=first_name, last_name=last_name, email=email, password=password)
-			user.save()
-		finally:
-			try:
-				patient = commonfunctions.Patient.objects.get(User=user)
-			except:
-				patient = commonfunctions.Patient(User=user)
-				patient.save()
+	# 	name = request.POST['Name'].split(' ', 1)
+	# 	first_name = name[0]
+	# 	last_name = name[1] if len(name) > 1 else ''
+
+	# 	email = request.POST['Email']
+
+	# 	try:
+	# 		user = commonfunctions.User.objects.get(username=request.POST['Number'])
+	# 	except:
+	# 		password = 'userpassword' #str(uuid.uuid4())
+	# 		user = commonfunctions.User.objects.create_user(username=request.POST['Number'], first_name=first_name, last_name=last_name, email=email, password=password)
+	# 		user.save()
+	# 	finally:
+	# 		try:
+	# 			patient = commonfunctions.Patient.objects.get(User=user)
+	# 		except:
+	# 			patient = commonfunctions.Patient(User=user)
+	# 			patient.save()
 		
-		day = Day.objects.get(Date=Timestamp.date())
-		slot = Slot.objects.get(DateAlloted=day, TimeAlloted=Timestamp.time())
+	# 	day = Day.objects.get(Date=Timestamp.date())
+	# 	slot = Slot.objects.get(DateAlloted=day, TimeAlloted=Timestamp.time())
 		
-		slot.Patient = patient
-		slot.Description = request.POST['description']
-		slot.save()
-		messages.success(request, 'Slot Booked !')
-		return redirect('/profile')
+	# 	slot.Patient = patient
+	# 	slot.Description = request.POST['description']
+	# 	slot.save()
+	# 	messages.success(request, 'Slot Booked !')
+	# 	return redirect('/profile')
 
 	slots = dict()
 
 	for day in Day.objects.all():
-			if not(day.Date >= datetime.datetime.today().date()):
-					continue
-			else:
-				slots[day] = list()
-				for slot in Slot.objects.filter(DateAlloted=day, Patient=None):
-					slot.Description = slot.TimeAlloted.__str__()[:-3] + ' - ' + ( datetime.datetime.combine(slot.DateAlloted.Date, slot.TimeAlloted) + datetime.timedelta(hours=1) ).time().__str__()[:-3]
-					slots[day].append(slot)
+		if (day.Date >= datetime.datetime.today().date()):
+			slots[day] = Slot.objects.filter(DateAlloted=day, Patient=None)
 	datelist = list(slots.keys())
 	try:
 		context = {
 			'treatments':commonfunctions.Treatments(),
-			# 'days':Day.objects.all(),
-			# 'slots':Slot.objects.all()
+			'packages':commonfunctions.Packages(),
 			'mindate':datelist[0],
 			'maxdate':datelist[-1],
 			'slots':slots,
@@ -66,16 +85,20 @@ def ConsultationPage(request):
 	except:
 		context = {
 			'treatments':commonfunctions.Treatments(),
+			'packages':commonfunctions.Packages()
 		}
 
 	user = request.user
 	if user.is_authenticated:
-		if len(Patient.objects.filter(User=user)) != 0:
-			context['name'] = user.get_full_name()
-			context['number'] = user.username
-			context['email'] = user.email
+		context['name'] = user.get_full_name()
+		context['number'] = user.username
+		context['email'] = user.email
 
 	return render(request, 'consultation/ConsultationPage.html', context)
 
 def Plans(request):
-	return render(request, 'consultation/Plans.html', {'treatments':commonfunctions.Treatments()})
+	context = {
+		'treatments':commonfunctions.Treatments(),
+		'packages':commonfunctions.Packages(),
+	}
+	return render(request, 'consultation/Plans.html', context)
