@@ -13,11 +13,11 @@ class Day(models.Model):
 		return self.Date.__str__()
 
 class Slot(models.Model):
-	Patient = models.ForeignKey(Patient, null=True, blank=True, on_delete=models.CASCADE)
-	DateAlloted = models.ForeignKey(Day, on_delete=models.CASCADE)
+	Patient = models.ForeignKey(Patient, null=True, blank=True, on_delete=models.CASCADE, related_name="Patient")
+	DateAlloted = models.ForeignKey(Day, on_delete=models.CASCADE, related_name="DateAlloted")
 	TimeAlloted = models.TimeField(default=datetime.datetime.now().time())
 	Description = models.TextField(null=True, blank=True)
-	Package = models.ForeignKey(Package, null=True, blank=True, on_delete=models.CASCADE)
+	Package = models.ForeignKey(Package, null=True, blank=True, on_delete=models.CASCADE, related_name="Package")
 
 	def __str__(self):
 		date = datetime.datetime.combine(self.DateAlloted.Date, self.TimeAlloted)
