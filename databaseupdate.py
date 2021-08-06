@@ -22,7 +22,7 @@ if True:#input('Enter admin password first : ') == 'admin':
 		pass
 
 	for app in applist:
-		path = root + '\\' + app + '\\migrations'
+		path = root + '/' + app + '/migrations'
 		os.chdir(path)
 		
 		for file in os.listdir():
