@@ -1,4 +1,4 @@
-from main.models import Treatment, Package
+from main.models import *
 from django.contrib.auth.models import User
 import datetime
 

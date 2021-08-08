@@ -15,6 +15,7 @@ Made By:-
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="Ideal Cure Homoeopathy & Wellness Clinic">
 	<title>Ideal Cure</title>
 	<link rel="shortcut icon" href="{% static 'main/logo.jpeg' %}" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -42,7 +43,8 @@ Made By:-
 				<li><a href="/#about">About</a></li>
 				<li><a href="/profile">
 				{% if request.user.is_authenticated %}
-					{{ request.user.get_full_name }}
+					<!-- {{ request.user.get_full_name }} -->
+					{{ request.user.first_name }}
 				{% else %}
 					Profile
 				{% endif %}

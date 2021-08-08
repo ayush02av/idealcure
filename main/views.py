@@ -17,8 +17,16 @@ def TreatmentsPage(request, treatmentFor):
 		'treatments':commonfunctions.Treatments(),
 	}
 	print(treatmentFor)
-	if treatmentFor != 'all':
-		context['treatmentFor'] = Treatment.objects.filter(Name=treatmentFor)[0]
+	# if treatmentFor != 'all':
+
+	treatmentName = treatmentFor
+	treatmentName = treatmentName.split("%2520")
+	treatmentFor = ''
+	for i in treatmentName:
+	    treatmentFor += i + ' '
+	treatmentFor = treatmentFor.rstrip()
+	
+	context['treatmentFor'] = Treatment.objects.filter(Name=treatmentFor)[0]
 
 	return render(request, 'main/TreatmentsPage.html', context)
 

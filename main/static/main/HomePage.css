@@ -137,7 +137,8 @@
 }
 
 .navigate-slide-button{
-	display: none;
+	display: inline-flex;
+	opacity: 0.2;
 	position: absolute;
 	width: 100px;
 	height: 500px;
@@ -145,10 +146,12 @@
 	padding-top: 220px;
 	border: 0;
 	font-size: 50px;
+	padding-left: 30px;
 }
 
 .active{
 	display: inline-flex;
+	opacity: 1;
 }
 
 #nav-right{
