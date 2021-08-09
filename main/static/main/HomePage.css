@@ -120,6 +120,11 @@
 	text-align: center;
 }
 
+.slide > h1, h2{
+	font-family: cooper;
+	color: brown;
+}
+
 #slide1{
 	padding-top: 50px;
 }
@@ -138,7 +143,7 @@
 
 .navigate-slide-button{
 	display: inline-flex;
-	opacity: 0.2;
+	opacity: 0.4;
 	position: absolute;
 	width: 100px;
 	height: 500px;
