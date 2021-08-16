@@ -60,3 +60,9 @@ def ProfilePage(request, username):
 			return redirect(Profile)
 	except:
 		return redirect(Profile)
+
+def TNC(request):
+	return render(request, 'main/tnc.html', {'treatments':commonfunctions.Treatments()})
+
+def Privacy(request):
+	return render(request, 'main/privacy.html', {'treatments':commonfunctions.Treatments()})

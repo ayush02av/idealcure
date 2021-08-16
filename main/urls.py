@@ -4,6 +4,8 @@ from . import views
 
 urlpatterns = [
     path('', views.HomePage),
+    path('tnc/', views.TNC),
+    path('privacy/', views.Privacy),
     path('treatments/<str:treatmentFor>/', views.TreatmentsPage),
     path('profile/', views.Profile),
     path('profile/<str:username>/', views.ProfilePage),
