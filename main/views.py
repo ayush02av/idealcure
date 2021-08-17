@@ -16,7 +16,6 @@ def TreatmentsPage(request, treatmentFor):
 	context = {
 		'treatments':commonfunctions.Treatments(),
 	}
-	print(treatmentFor)
 	# if treatmentFor != 'all':
 
 	treatmentName = treatmentFor
