@@ -74,8 +74,14 @@
 		</tr>
 	{% endfor %}
 	</table>
-	<center><input class="consultation-form-button" type="submit" name="submit" value="BOOK MY SLOT"></center>
-	<br><br><br><br>
+	<center>
+		<img src="{% static 'main/qrcode.jpeg' %}" style="width: 300px;">
+		<br>
+		<small><i>Please Make the payment by scanning this code</i></small>
+		<br><br><br>
+		<input class="consultation-form-button" type="submit" name="submit" value="BOOK MY SLOT">
+		<br><br><br><br>
+	</center>
 </div>
 </form>
 
