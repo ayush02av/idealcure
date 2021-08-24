@@ -87,33 +87,6 @@
 	margin: 0 20%;
 }
 
-@media screen and (max-width: 800px){
-	#top-banner>div{
-		display: block;
-	}
-	#banner-info{
-		font-size: 18px;
-	}
-	#why{
-		display: block;
-		line-height: 20px;
-	}
-	#why > div{
-		margin: 0;
-		padding: 80px 5%;
-		padding-bottom: 10px;
-		width: 90%;
-	}
-	#about div{
-		width: 90%;
-		margin: 0 5%;
-	}
-}
-
-
-
-
-
 .slide{
 	display: none;
 	justify-content: center;
@@ -127,6 +100,7 @@
 
 #slide1{
 	padding-top: 50px;
+	min-height: 0;
 }
 
 #slide2{
@@ -164,4 +138,47 @@
 }
 #nav-left{
 	left: 0;
+}
+
+
+@media screen and (max-width: 800px){
+	/*#top-banner>div{
+		display: block;
+	}*/
+
+	#slide1{
+		/*padding-top: 0;*/
+	}
+
+	#slide1 > #doctorimage{
+		display: none;
+	}
+
+	#banner-info{
+		font-size: 18px;
+	}
+
+	#why{
+		display: block;
+		line-height: 20px;
+	}
+	#why > div{
+		margin: 0;
+		padding: 80px 5%;
+		padding-bottom: 10px;
+		width: 90%;
+	}
+	#about div{
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	.navigate-slide-button{
+		width: 30px;
+		padding-left: 0;
+	}
+
+	.active{
+		display: block;
+	}
 }
