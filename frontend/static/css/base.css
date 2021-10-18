@@ -47,6 +47,8 @@ input, textarea{
 .highlight{ font-weight: 500; color: var(--secondary-color-2); }
 .highlight-2{ color: var(--helper-color-2); }
 
+.highlight-section{ background: rgb(200, 200, 200); padding: 20px; display: block; border-radius: 3px; }
+
 .section{
 	width: 100%; padding: 60px 0;
 	display: flex; flex-wrap: wrap; justify-content: center;

@@ -4,7 +4,7 @@ backend/__init__.py
 db.sqlite3
 media
 
-databaseupdate.py
+databaseupdate.txt
 
 logs.txt
 tmp

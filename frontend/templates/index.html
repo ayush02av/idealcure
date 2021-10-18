@@ -1,42 +1,58 @@
 {% extends 'base.html' %}
 {% block main %}
-
 <div id="home-page-slideshow" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-inner" onclick="window.open('/consultation')" style="cursor: pointer;">
-    <!-- <div class="carousel-item active">
+    <div class="carousel-inner" onclick="window.open('/consultation')" style="cursor: pointer;">
+        <!-- <div class="carousel-item active">
       <img src="/static/images/slide1.png" class="d-block w-100">
     </div> -->
-    <div class="carousel-item active">
-      <img src="/static/images/slide2.png" class="d-block w-100">
+        <div class="carousel-item active">
+            <img src="/static/images/slide2.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/images/slide3.png" class="d-block w-100">
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="/static/images/slide3.png" class="d-block w-100">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#home-page-slideshow" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#home-page-slideshow" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    <button class="carousel-control-prev" type="button" data-bs-target="#home-page-slideshow" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#home-page-slideshow" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
-
 <div class="section" id="about">
-    <h1 class="highlight">Idealcure</h1>
     <div class="big-inner-section" style="flex: 0 1 100%;">
         <p>
             <span class="inner-section-heading"><a href="/consultation/">GET CONSULTATION NOW!</a></span>
             <center style="font-size: 23px;">
-            Dr. Rashmi's <strong class="highlight">Ideal Cure Homoeopathy & Wellness Clinic</strong><br>offers Homoeopathic Treatment to all
-            <br>Acute, Chronic, Difficult & Complicated Diseases. <br><br>
-            The Clinic's unique scientific and artistic methodology
-            <br>
-            cures the diseases rapidly, permanently, and gently too!
-        </center>
+                Dr. Rashmi's <strong class="highlight">Ideal Cure Homoeopathy & Wellness Clinic</strong><br>offers Homoeopathic Treatment to all
+                <br>Acute, Chronic, Difficult & Complicated Diseases. <br><br>
+                The Clinic's unique scientific and artistic methodology
+                <br>
+                cures the diseases rapidly, permanently, and gently too!
+            </center>
         </p>
     </div>
+</div>
+
+<div id="home-page-consultation-slideshow" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner" onclick="window.open('/consultation')" style="cursor: pointer;">
+        <div class="carousel-item active">
+            <img src="/static/images/consultation-mobile.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/images/consultation-laptop.png" class="d-block w-100">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#home-page-consultation-slideshow" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#home-page-consultation-slideshow" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
 
 <div class="section" id="why">
@@ -50,22 +66,28 @@
             <br>
             or ‘let likes be treated by likes'.
             <br><br>
-            By this,it means that Homoeopathic medicines stimulate the body's own natural ability to fight off the diseases and CURE of the suffering is obtained.
+            By this, it means that Homoeopathic medicines stimulate the body's own natural ability to fight off the diseases and CURE of the suffering is obtained.
             <br><br>
             You should choose Homoeopathy because :<br><br>
             <ul>
                 <li>The person in disease and not the disease in person is treated.</li>
                 <li>The person as a whole and not just the name of disease is treated.</li>
                 <li>This system does not suppress the symptoms but cures them.</li>
+                <br>
                 <li>Proven system to cure the acute and chronic diseases for hundreds of years.</li>
+                <br>
                 <li>There are no adverse side-effects.</li>
+                <br>
                 <li>Homoeopathic Medicines can be taken along with other medicines also.</li>
                 <li>These Medicines are easy to consume.</li>
+                <br>
                 <li>Suits all age groups from new born to 100 years of age.</li>
-                <li>Chronic,complicated and multiple diseases can be treated successfully.</li>
+                <br>
+                <li>Chronic, complicated and multiple diseases can be treated successfully.</li>
+                <br>
                 <li>Medicines are cost effective.</li>
             </ul>
-            <i>It is because of all these qualities that Homoeopathy is gaining widespread acceptance and popularity all across the world.</i>
+            <i class="highlight-section">It is because of all these qualities that Homoeopathy is gaining widespread acceptance and popularity all across the world.</i>
         </p>
     </div>
     <div class="big-inner-section">
@@ -98,36 +120,35 @@
     <h1 class="section-heading">Frequently Asked Questions</h1>
     <div class="accordion" id="faq-accordion">
         {% for faq in faqs %}
-			<div class="accordion-item">
-	            <h2 class="accordion-header" id="{{ faq.id }}">
-	                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ faq.id }}" aria-expanded="true" aria-controls="collapse{{ faq.id }}">
-	                    <b>{{ faq.Question }}</b>
-	                </button>
-	            </h2>
-	            <div id="collapse{{ faq.id }}" class="accordion-collapse collapse" aria-labelledby="{{ faq.id }}" data-bs-parent="#faq-accordion">
-	                <div class="accordion-body">
-	                    <small>{{ faq.Answer }}</small>
-	                </div>
-	            </div>
-	        </div>        	
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="{{ faq.id }}">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ faq.id }}" aria-expanded="true" aria-controls="collapse{{ faq.id }}">
+                    <b>{{ faq.Question }}</b>
+                </button>
+            </h2>
+            <div id="collapse{{ faq.id }}" class="accordion-collapse collapse" aria-labelledby="{{ faq.id }}" data-bs-parent="#faq-accordion">
+                <div class="accordion-body">
+                    <small>{{ faq.Answer }}</small>
+                </div>
+            </div>
+        </div>
         {% endfor %}
     </div>
 </div>
 <div class="section" id="about">
-	<h1 class="section-heading">About</h1>
-	<div class="big-inner-section" style="flex: 0 1 70%;">
-		<p>
-			<span class="highlight">Dr. Rashmi B.H.M.S.</span> is an ardent follower and practitioner of classical Homoeopathy.
-			<br>
-			She incorporates the core principles of Homoeopathy into her clinical practice.
-			<br><br>
-			With a burning desire to cure her patients, with dedication and a vast clinical experience of more than 20 years,
-			<br>
-			she has treated hundreds of cases of diseases which were not getting any relief or declared as incurable.
-			<br><br>
-			She offers quality treatment to patients visiting her clinic personally and also Online consultation by normal voice call or WhatsApp video call.			
-		</p>
-	</div>
+    <h1 class="section-heading">About</h1>
+    <div class="big-inner-section" style="flex: 0 1 70%;">
+        <p>
+            <span class="highlight">Dr. Rashmi B.H.M.S.</span> is an ardent follower and practitioner of classical Homoeopathy.
+            <br>
+            She incorporates the core principles of Homoeopathy into her clinical practice.
+            <br><br>
+            With a burning desire to cure her patients, with dedication and a vast clinical experience of more than 20 years,
+            <br>
+            she has treated hundreds of cases of diseases which were not getting any relief or declared as incurable.
+            <br><br>
+            She offers quality treatment to patients visiting her clinic personally and also Online consultation by normal voice call or WhatsApp video call.
+        </p>
+    </div>
 </div>
 {% endblock %}
-
