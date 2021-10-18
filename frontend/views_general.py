@@ -48,7 +48,7 @@ class treatments(TemplateView):
 class treatment(TemplateView):
     def get(self, request, treatment):
         try:
-            treatment = Treatment.objects.get(Name=treatment.replace("%2520", " ").rstrip().lstrip())
+            treatment = Treatment.objects.get(Name=treatment.replace("%20", " ").rstrip().lstrip())
         except:
             return redirect(treatments)
         else:
@@ -75,7 +75,7 @@ class consultation(TemplateView):
 
         if 'selected_treatment' in request.GET:
             try:
-                treatment = Treatment.objects.get(Name=request.GET['selected_treatment'])
+                treatment = Treatment.objects.get(Name=request.GET['selected_treatment'].replace("%20", " ").lstrip().rstrip())
                 context['title'] += f" for {treatment.Name}"
                 context['selected_treatment'] = treatment
             except:
