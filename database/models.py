@@ -55,7 +55,7 @@ class Package(models.Model):
 	Price = models.IntegerField(primary_key=True)
 	Duration = models.CharField(max_length=10)
 	Description = models.TextField(max_length=100)
-	PaymentLink = models.CharField(max_length=20)
+	PaymentLink = models.CharField(max_length=50)
 
 	def GetDuration(self):
 		return self.Duration + " medicine"
