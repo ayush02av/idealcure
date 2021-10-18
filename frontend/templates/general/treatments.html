@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block main %}
+<main>
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="section-heading">Ideal Consultation at Idealcure</h1>
+                <p class="lead text-muted">Get Consultation for over 10 illneses at affordable prices.</p>
+                <p>
+                    <a href="/consultation/" class="btn btn-primary my-2 btn-lg">Get Consultation Now</a>
+                    <br>
+                    <a href="/plans/" class="btn btn-secondary my-2">Check our plans</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                {% for treatment in treatments %}
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>{{ treatment.Name }}</title>
+                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">{{ treatment.Name }}</text>
+                        </svg>
+                        <div class="card-body">
+                            <h4 class="highlight">{{ treatment.Name }}</h4>
+                            <p class="card-text">
+                                {{ treatment.Description|slice:"0:50" }}...
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a type="button" class="btn btn-sm btn-outline-success" href="/treatment/{{ treatment.Name }}">View</a>
+                                <a type="button" class="btn btn-sm btn-success" href="/consultation?selected_treatment={{ treatment.Name }}">Get Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

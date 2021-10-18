@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block main %}
+    <section class="vh-100 gradient-custom">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card bg-light text-dark" style="border-radius: 1rem;">
+              <div class="card-body text-center">
+
+                <div>
+                  <h2 class="text-uppercase section-heading">Login</h2>
+                  <h4 class="highlight">Idealcure Homoeopathy & Wellness Clinic</h4>
+                  <p class="text-primary-50">Please enter your login and password!</p>
+                  <a class="text-primary-50 mb-5" href="/"><span class="fa fa-hand-point-left"></span> Or Back to Home</a>
+
+                  <form method="POST">{% csrf_token %}
+                      <div class="form-outline form-dark">
+                        <input type="name" name="number" id="number" class="form-control form-control-lg" placeholder="Mobile number..." />
+                        <label class="form-label" id="number" for="nubmer">Mobile number</label>
+                      </div>
+
+                      <div class="form-outline form-dark">
+                        <input type="password" name="password" id="password" class="form-control form-control-lg" placeholder="Password..." />
+                        <label class="form-label" for="password">Password</label>
+                      </div>
+
+                      <p class="small pb-lg-2"><a class="text-danger" href="/#">Forgot password?</a></p>
+
+                      <button type="submit" class="btn btn-outline-primary btn-lg px-5" type="submit">Login</button>
+                  </form>
+
+                  <p>Don't have an account? <a href="/consultation" class="text-dark-50 fw-bold d-inline-flex mt-3">Sign Up</a></p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+{% endblock %}
+
+{% block JSBlock %}
+    <script type="text/javascript">
+      document.getElementById('number').focus();
+    </script>
+{% endblock %}

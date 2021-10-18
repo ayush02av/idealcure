@@ -1,0 +1,10 @@
+backend/settings.py
+backend/__init__.py
+
+db.sqlite3
+media
+
+databaseupdate.py
+
+logs.txt
+tmp

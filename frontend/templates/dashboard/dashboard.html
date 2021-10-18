@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+
+{% block CSSBlock %}<link rel="stylesheet" type="text/css" href="/static/css/dashboard.css">{% endblock %}
+
+{% block main %}
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+<header class="navbar navbar-light sticky-top bg-light flex-md-nowrap p-0 shadow">
+  <div class="navbar-brand col-md-3 col-lg-2 me-0 px-3"><a href="/" style="display: unset;">Ideal Cure Clinic</a> | Dashboard</div>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</header>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="position-sticky pt-3">
+
+        <ul class="nav flex-column">
+
+          <li class="nav-item">
+            <h3 class="nav-link text-primary">
+              <a href="/dashboard">
+                {{ request.user.get_full_name }}
+              </a>
+            </h3>
+          </li>
+          <li class="nav-item">
+            <a href="/logout" class="nav-link"><i class="fa fa-sign-out"></i> Logout</a>
+          </li>
+
+          <br>
+          <li class="nav-item">
+            <a class="text-muted nav-link">General</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/dashboard">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/dashboard/#settings">Settings</a>
+          </li>
+
+          <br>
+          {% if not request.user.is_superuser %}
+          <li class="nav-item">
+            <a class="text-muted nav-link">My Consultation Slots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/dashboard/ongoingtreatments">Ongoing Treatments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/dashboard/pendingslots">Pending Consultation Slots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Past Treatments</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="text-muted nav-link">Doctor Panel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/dashboard/pendingslots">Pending Slots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/dashboard/ongoingtreatments">Ongoing Treatments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Closed Treatments</a>
+          </li>
+
+          <br>
+          <li class="nav-item">
+            <a class="text-muted nav-link">Admin Panel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Patients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Check Payments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Treatments Offered</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Packages Options</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/admin" target="_blank">Backend Panel <br>(For developer)</a>
+          </li>
+          {% endif %}
+
+          <br>
+          <li class="nav-item">
+            <a class="text-muted nav-link">Customer Care | Assistance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tel:+918800346979"><i class="fa fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; +91 88-0034-6979</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:care@idealcure.net" target="blank"><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;care@idealcure.net</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      {% block DashboardBlock %}
+      {% endblock %}
+    </main>
+  </div>
+</div>
+
+{% endblock %}

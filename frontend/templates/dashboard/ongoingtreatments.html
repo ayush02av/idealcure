@@ -1,0 +1,23 @@
+{% extends 'dashboard/dashboard.html' %}
+
+{% block DashboardBlock %}
+<div class="section">
+	<h3 class="inner-section-heading">All Ongoing Treatments</h3>
+	<div class="information-container">
+		{% for patient_treatment in patient_treatment_list %}
+		<div class="information-block">
+			<span class="highlight">
+			{% if patient_treatment.Treatment.Name %}{{ patient_treatment.Treatment.Name }}{% else %}General{% endif %}
+			</span>
+			<i>
+				{% if request.user.is_superuser %}
+				&nbsp;|&nbsp;{{ patient_treatment.Patient.User.get_full_name }}
+				{% endif %}
+				&nbsp;|&nbsp;{{ patient_treatment.Validity }}
+				&nbsp;from&nbsp;{{ patient_treatment.Date }}
+			</i>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+{% endblock %}

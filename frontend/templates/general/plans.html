@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block main %}
+<div class="section h-100 p-3">
+	<h1 class="section-heading">Affordable Treatment Plans</h1>
+	{% for package in packages %}
+	<div class="inner-section" style="margin: 20px; flex: 0 1 400px;">
+        <div class="card rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h3 class="highlight">{{ package.GetPrice }}</h3>
+          </div>
+          <div class="card-body">
+            <p class="text-muted">{{ package.GetDuration }}</p>
+            <p>{{ package.Description|safe }}</p>
+            <a href="/consultation?selected_package={{ package.Price }}" class="w-100 btn btn-lg btn-outline-success">Get a slot</a>
+          </div>
+        </div>
+	</div>
+	{% endfor %}
+</div>
+{% endblock %}

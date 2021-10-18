@@ -1,0 +1,55 @@
+{% extends 'dashboard/dashboard.html' %}
+
+{% block DashboardBlock %}
+{% if not request.user.is_superuser %}
+<div class="section">
+	<h3 class="inner-section-heading">General Information</h3>
+	<div class="information-container">
+		<div class="information-slot">
+			<div>Username</div>
+			<div>{{ request.user.username }}</div>
+		</div>
+		<div class="information-slot">
+			<div>Mobile Number</div>
+			<div>{{ request.user.username }}</div>
+		</div>
+		<div class="information-slot">
+			<div>Full Name</div>
+			<div>{{ request.user.get_full_name }}</div>
+		</div>
+		<div class="information-slot">
+			<div>Email</div>
+			<div>{{ request.user.email }}</div>
+		</div>
+		<div class="information-slot">
+			<div>Age</div>
+			<div>{{ request.user.Age }}</div>
+		</div>
+		<div class="information-slot">
+			<div>Gender</div>
+			<div>{{ request.user.Gender }}</div>
+		</div>
+		<div class="information-slot">
+			<div>Address</div>
+			<div>{{ request.user.address }}</div>
+		</div>
+	</div>
+</div>
+{% endif %}
+
+<div class="section">
+	<h3 class="inner-section-heading">Highlights</h3>
+	<div class="information-container">
+		<div class="information-card">
+			<div>Joined On</div>
+			<div>{{ request.user.date_joined }}</div>
+		</div>
+		{% for highlight in highlights %}
+		<div class="information-card">
+			<div>{{ highlight.key }}</div>
+			<div>{{ highlight.value }}</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+{% endblock %}

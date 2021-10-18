@@ -1,0 +1,24 @@
+{% extends 'dashboard/dashboard.html' %}
+
+{% block DashboardBlock %}
+<div class="section">
+	<h3 class="inner-section-heading">All Pendings Consultation Slots</h3>
+	<div class="information-container">
+		{% for slot in slot_list %}
+		<div class="information-block">
+			<span class="highlight">{% if slot.PatientTreatment.Treatment.Name %}{{ slot.PatientTreatment.Treatment.Name }}{% else %}General{% endif %}</span>
+			<!-- <i style="width: 100%;"> -->
+			<i class="w-100">
+				&nbsp;|&nbsp;{{ slot.GetSlotValue }}
+				{% if request.user.is_superuser %}
+				<span style="float: right;">
+				&nbsp;|&nbsp;{{ slot.PatientTreatment.Patient.User.get_full_name }}
+				&nbsp;|&nbsp;{{ slot.PatientTreatment.Patient.User.username }}
+				</span>
+				{% endif %}
+			</i>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+{% endblock %}

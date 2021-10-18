@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+{% block main %}
+
+<div id="home-page-slideshow" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner" onclick="window.open('/consultation')" style="cursor: pointer;">
+    <!-- <div class="carousel-item active">
+      <img src="/static/images/slide1.png" class="d-block w-100">
+    </div> -->
+    <div class="carousel-item active">
+      <img src="/static/images/slide2.png" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/images/slide3.png" class="d-block w-100">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#home-page-slideshow" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#home-page-slideshow" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="section" id="about">
+    <h1 class="highlight">Idealcure</h1>
+    <div class="big-inner-section" style="flex: 0 1 100%;">
+        <p>
+            <span class="inner-section-heading"><a href="/consultation/">GET CONSULTATION NOW!</a></span>
+            <center style="font-size: 23px;">
+            Dr. Rashmi's <strong class="highlight">Ideal Cure Homoeopathy & Wellness Clinic</strong><br>offers Homoeopathic Treatment to all
+            <br>Acute, Chronic, Difficult & Complicated Diseases. <br><br>
+            The Clinic's unique scientific and artistic methodology
+            <br>
+            cures the diseases rapidly, permanently, and gently too!
+        </center>
+        </p>
+    </div>
+</div>
+
+<div class="section" id="why">
+    <h1 class="section-heading">Why us?</h1>
+    <div class="big-inner-section">
+        <h1 class="inner-section-heading">Why Homoeopathy</h1>
+        <p>
+            Homoeopathy is a therapeutic system of medicine
+            <br>
+            which is based on the principle, “Similia Similibus Curentur”
+            <br>
+            or ‘let likes be treated by likes'.
+            <br><br>
+            By this,it means that Homoeopathic medicines stimulate the body's own natural ability to fight off the diseases and CURE of the suffering is obtained.
+            <br><br>
+            You should choose Homoeopathy because :<br><br>
+            <ul>
+                <li>The person in disease and not the disease in person is treated.</li>
+                <li>The person as a whole and not just the name of disease is treated.</li>
+                <li>This system does not suppress the symptoms but cures them.</li>
+                <li>Proven system to cure the acute and chronic diseases for hundreds of years.</li>
+                <li>There are no adverse side-effects.</li>
+                <li>Homoeopathic Medicines can be taken along with other medicines also.</li>
+                <li>These Medicines are easy to consume.</li>
+                <li>Suits all age groups from new born to 100 years of age.</li>
+                <li>Chronic,complicated and multiple diseases can be treated successfully.</li>
+                <li>Medicines are cost effective.</li>
+            </ul>
+            <i>It is because of all these qualities that Homoeopathy is gaining widespread acceptance and popularity all across the world.</i>
+        </p>
+    </div>
+    <div class="big-inner-section">
+        <h1 class="inner-section-heading">Why Ideal Cure Clinic</h1>
+        <p>
+            <i>An Ideal Cure should be rapid, gentle, & permanent.</i><br><br>
+            Finding the most appropriate Homoeopathic medicines for the suffering patient is a very demanding job.
+            <br>
+            It needs careful observation and correct interpretation of symptoms.
+            <br><br>
+            At our clinic, this job of Individualization (finding the most perfect medicine and its dose) is done with extreme caution and due diligence.
+            <br><br>
+            It is because of the dedication & commitment to these ideals, that Dr. Rashmi has shown astonishing results in innumerable cases of the most difficult and complicated diseases.
+            <br><br>
+            You should choose this clinic because:
+            <br>
+            <ul>
+                <li><strong>True classical Homoeopathy </strong>in its purest form is practiced.</li>
+                <li><strong>You are you : </strong>At the clinic, we understand that each patient is unique and so are one's problems, and therefore must be treated individually as per their needs.</li>
+                <li><strong>Holistic approach, </strong>compassionate care and honest advice to patients.</li>
+                <li><strong>Follow up : </strong>careful observation is maintained all through the follow up.</li>
+                <li><strong>Diet & life style advice </strong>constitute an important role in the treatment. These are as important as the medication is.</li>
+                <li><strong>MINIMUM</strong> medicine & <strong>MAXIMUM</strong> relief is our motto</li>
+                <li><strong>World class Homoeopathic treatment at most affordable cost.</strong> Flexible treatment plans to suit every need.</li>
+            </ul>
+        </p>
+    </div>
+</div>
+<div class="section" id="faqs">
+    <h1 class="section-heading">Frequently Asked Questions</h1>
+    <div class="accordion" id="faq-accordion">
+        {% for faq in faqs %}
+			<div class="accordion-item">
+	            <h2 class="accordion-header" id="{{ faq.id }}">
+	                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ faq.id }}" aria-expanded="true" aria-controls="collapse{{ faq.id }}">
+	                    <b>{{ faq.Question }}</b>
+	                </button>
+	            </h2>
+	            <div id="collapse{{ faq.id }}" class="accordion-collapse collapse" aria-labelledby="{{ faq.id }}" data-bs-parent="#faq-accordion">
+	                <div class="accordion-body">
+	                    <small>{{ faq.Answer }}</small>
+	                </div>
+	            </div>
+	        </div>        	
+        {% endfor %}
+    </div>
+</div>
+<div class="section" id="about">
+	<h1 class="section-heading">About</h1>
+	<div class="big-inner-section" style="flex: 0 1 70%;">
+		<p>
+			<span class="highlight">Dr. Rashmi B.H.M.S.</span> is an ardent follower and practitioner of classical Homoeopathy.
+			<br>
+			She incorporates the core principles of Homoeopathy into her clinical practice.
+			<br><br>
+			With a burning desire to cure her patients, with dedication and a vast clinical experience of more than 20 years,
+			<br>
+			she has treated hundreds of cases of diseases which were not getting any relief or declared as incurable.
+			<br><br>
+			She offers quality treatment to patients visiting her clinic personally and also Online consultation by normal voice call or WhatsApp video call.			
+		</p>
+	</div>
+</div>
+{% endblock %}
+

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Ayush Verma">
+    <link rel="shortcut icon" href="/static/images/favicon.ico">
+    <title>{% if title %}{{ title }} | {% endif %}Idealcure Homoeopathy & Wellness Clinic</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/base.css">
+    {% block CSSBlock %}{% endblock %}
+</head>
+
+<body>
+    {% if not show_header_footer %}
+    <nav class="navbar navbar-expand-md sticky-top bg-light navbar-light text-primary md-10">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Ideal Cure Clinic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-md-0 ms-auto">
+                    <li class="dropdown show nav-item">
+                      <button class="btn dropdown-toggle" type="button" id="treatment-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Treatments Offered
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="treatment-dropdown">
+                        <a class="dropdown-item" href="/treatments/">Check All</a>
+                        <div class="dropdown-divider"></div>
+                        <h6 class="dropdown-header">All Treatments</h6>
+                        {% for treatment in treatments %}
+                            <a class="dropdown-item" href="/treatment/{{ treatment.Name }}/">{{ treatment.Name }}</a>
+                        {% endfor %}
+                      </div>
+                    </li>         
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/plans">Treatment Plans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/consultation">Online Consultation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/#why">Why Homoeopathy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/#faqs">F.A.Q.s</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/profile">{% if request.user.is_authenticated %}<i class="fa fa-user"></i> {{ request.user.first_name }}{% else %}<i class="fa fa-sign-in"></i> Login{% endif %}</a>
+                    </li>
+                    {% if request.user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/logout"><i class="fa fa-sign-out"></i> Logout</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+    {% endif %}
+
+    {% if messages %}
+    <ul class="messages" style="padding: 0;">
+        {% for message in messages %}
+        <li {% if message.tags %} class="bg-{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}    
+
+    <div id="main" class="carousel-fluid">
+        {% block main %}{% endblock %}
+    </div>
+
+    {% if not show_header_footer %}
+    <div id="footer" class="section">
+        <h1 class="inner-section-heading">Dr. Rashmi's Idealcure Homoeopathy & Wellness Clinic</h1>
+        <div id="quick-links" class="small-inner-section">
+            <h3 class="highlight-2">Quick Links</h3>
+            <ul class="text">
+                <li><a href="/consultation">Online Consultation</a></li>
+                <li><a href="/treatments">Treatments We Offer</a></li>
+                <li><a href="/plans">Treatment Plans We Offer</a></li>
+                <li><a href="/#why">Why Homoeopathy</a></li>
+                <li><a href="/#faqs">Frequently Asked Questions</a></li>
+                <li><a href="/#about">About Ideal Cure</a></li>
+                <li><a href="/tnc">Terms & Conditions</a></li>
+                <li><a href="/privacy">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div id="brief-info" class="small-inner-section">
+            <h3 class="highlight-2">Clinic</h3>
+            <p>
+                B-6/79, Sector-18
+                <br>
+                (Opp. Millenium Appartments)
+                <br>
+                Rohini, Delhi-110089
+            </p>
+            <h3 class="highlight-2">Customer Care</h3>
+            <p>
+                <i>( 10 am to 9 pm )</i>
+                <br>
+                <a href="tel:+918800346979"><i class="fa fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; +91 88-0034-6979</a>
+                <a href="mailto:care@idealcure.net" target="blank"><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;care@idealcure.net</a>
+            </p>
+        </div>
+        <div id="quick-links2" class="small-inner-section">
+            <h3 class="highlight-2">Security</h3>
+            <p>
+                SSL provided by GoDaddy
+                <br>
+                Payments Powered by PayU
+            </p>
+        </div>
+    </div>
+    {% endif %}    
+        
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    {% block JSBlock %}{% endblock %}
+</body>
+</html>
