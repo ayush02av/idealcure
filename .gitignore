@@ -4,6 +4,8 @@ backend/__init__.py
 db.sqlite3
 media
 
+secret_keys.py
+
 databaseupdate.txt
 
 logs.txt

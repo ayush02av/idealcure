@@ -42,6 +42,13 @@
               </a>
             </h3>
           </li>
+
+          {% if request.user.pending_payment_slot %}
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-sign-out"></i> Payment Pending</a>
+          </li>
+          {% endif %}
+
           <li class="nav-item">
             <a href="/logout" class="nav-link"><i class="fa fa-sign-out"></i> Logout</a>
           </li>

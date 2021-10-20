@@ -25,6 +25,15 @@ class User(AbstractUser):
 	Gender = models.CharField(max_length=6, null=True, blank=True)
 	password = models.CharField(max_length=100, editable=False)
 
+	def pending_payment_slot(self):
+		try:
+			if len(Slot.objects.filter(PatientTreatment=PatientTreatment.objects.get(Patient=Patient.objects.get(User=self)), PaymentMade=False)) > 0:
+				return True
+			else:
+				return False
+		except:
+			return False
+
 class Patient(models.Model):
 	User = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
 	PatientVerified = models.BooleanField(default=False)

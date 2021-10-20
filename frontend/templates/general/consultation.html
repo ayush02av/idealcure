@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block main %}
-<section class="h-100">
+<section class="h-100" >
     <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col">
@@ -31,9 +31,9 @@
                                                 {% if request.user.is_authenticated %}
                                                 <input type="text" readonly class="form-control" value="{{ request.user.username }}" name="number">
                                                 {% else %}
-                                                <input type="number" class="form-control" placeholder="Contact Number required" name="number" required />
+                                                <input type="number" readonly class="form-control" id="number" placeholder="Contact Number required" name="number" required />
                                                 {% endif %}
-                                                <label class="form-label">Contact Number</label>
+                                                <label id="number-label" class="form-label" style="cursor: pointer;" onclick="sawo.showForm();">Click here to verify Contact Number</label>
                                             </div>
                                         </div>
                                     </div>
@@ -171,47 +171,20 @@
         </div>
     </div>
 </section>
-{% endblock %}
-{% block JSBlock %}
-<script type="text/javascript">
-const slot_date = document.getElementById('slot-date');
-const slot_time = document.getElementById('slot-time');
-
-slot_date.addEventListener('change', function() {
-    if (document.getElementById(this.value) == null) {
-        slot_time.setAttribute("placeholder", "No slots available for this day *");
-        slot_time.setAttribute("list", "");
-    } else if (document.getElementById(this.value).children.length == 0) {
-        slot_time.setAttribute("placeholder", "No slot left for this day *");
-        slot_time.setAttribute("list", "");
-    } else {
-        slot_time.setAttribute("placeholder", "Pick your time *");
-        slot_time.setAttribute("list", this.value);
-    }
-    slot_time.value = "";
-});
-
-slot_time.addEventListener('change', function() {
-    var flag = true;
-
-    if (document.getElementById(slot_time.getAttribute("list")) != null) {
-        var children = document.getElementById(slot_time.getAttribute("list")).children;
-        for (var i = 0; i < children.length; i++) {
-            if (this.value == children[i].children[0].value) {
-                flag = false;
-                break;
-            }
-        }
-    }
-
-    if (flag) {
-        slot_time.setAttribute("placeholder", "Please choose a correct value *");
-        slot_time.value = "";
-    }
-});
-
-slot_time.addEventListener("focus", function() {
-    slot_time.value = "";
-});
+<div id="sawo-container" style="height: 100%; width: 100%; position: fixed; z-index: 10; top: 0; left: 0; display: none;"></div>
+<script src="https://websdk.sawolabs.com/sawo.min.js"></script>
+<script>
+var config = {
+    containerID: "sawo-container",
+    identifierType: "phone_number_sms",
+    apiKey: "{{ SAWO_API_KEY }}",
+    onSuccess: (payload) => {
+        document.getElementById('number').value = payload.identifier.replace("+91", "");
+        document.getElementById('number-label').innerHTML = "Number Verified, continue to book your slot";
+    },
+};
+var sawo = new Sawo(config);
+// sawo.showForm();
 </script>
 {% endblock %}
+{% block JSBlock %}<script type="text/javascript" src="/static/js/consultation.js"></script>{% endblock %}
