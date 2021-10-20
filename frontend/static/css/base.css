@@ -67,7 +67,7 @@ FOOTER CSS START
 */
 
 #footer{
-	font-size: 20px;
+	font-size: 18px;
 	background: var(--base-color); color: var(--base-background);
 }
 #footer a:hover{ color: var(--helper-color-2); margin-left: 2px; transition: 0.5s; }

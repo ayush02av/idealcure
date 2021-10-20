@@ -2,8 +2,6 @@ from django.shortcuts import render, redirect
 from database.models import *
 import commonfunctions
 
-from secret_keys import SAWO_API_KEY
-
 from django.views.generic import TemplateView
 from django.contrib import messages
 from django.contrib import auth
@@ -73,7 +71,6 @@ class consultation(TemplateView):
             'mindate':datelist[0],
             'maxdate':datelist[-1],
             'title':'Book Slot',
-            'SAWO_API_KEY':SAWO_API_KEY
         }
 
         if 'selected_treatment' in request.GET:
