@@ -33,9 +33,23 @@ class index(TemplateView):
 
         return render(request, 'index.html', context)
 
-    def post(self, request):
-        print( request.POST )
-        return redirect('/')
+class terms(TemplateView):
+    def get(self, request):
+        context = {
+            'treatments':commonfunctions.Treatments(),
+            'title':'Terms & Conditions'
+        }
+
+        return render(request, 'terms.html', context)
+
+class privacy(TemplateView):
+    def get(self, request):
+        context = {
+            'treatments':commonfunctions.Treatments(),
+            'title':'Privacy Policy'
+        }
+
+        return render(request, 'privacy.html', context)
 
 class treatments(TemplateView):
     def get(self, request):
